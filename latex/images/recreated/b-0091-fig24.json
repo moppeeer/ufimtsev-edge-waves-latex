@@ -1,0 +1,16 @@
+{
+  "asset": "b-0091-fig24",
+  "figure": 24,
+  "method": "vector schematic",
+  "description": "Finite cylinder, source normal, observation angle and the three luminous edge points.",
+  "equations": [],
+  "details": {
+    "construction": "Independently redrawn paths, dimension arrows, angle arcs and editable labels from the source figure."
+  },
+  "source_crop": "images/b-0091-fig24.png",
+  "vector_outputs": [
+    "images/recreated/b-0091-fig24.pdf",
+    "images/recreated/b-0091-fig24.svg"
+  ],
+  "text_outside_canvas": []
+}

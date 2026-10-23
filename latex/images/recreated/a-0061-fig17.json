@@ -1,0 +1,18 @@
+{
+  "asset": "a-0061-fig17",
+  "figure": 17,
+  "method": "schematic",
+  "description": "Disk surface point and observation point geometry",
+  "equations": [
+    "7.03",
+    "7.04",
+    "7.05"
+  ],
+  "details": {},
+  "source_crop": "images/a-0061-fig17.png",
+  "vector_outputs": [
+    "images/recreated/a-0061-fig17.pdf",
+    "images/recreated/a-0061-fig17.svg"
+  ],
+  "text_outside_canvas": []
+}

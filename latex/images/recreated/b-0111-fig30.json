@@ -1,0 +1,16 @@
+{
+  "asset": "b-0111-fig30",
+  "figure": 30,
+  "method": "vector schematic",
+  "description": "Relative orientation of the local unit vectors for forward and backward observation.",
+  "equations": [],
+  "details": {
+    "construction": "Independently redrawn paths, dimension arrows, angle arcs and editable labels from the source figure."
+  },
+  "source_crop": "images/b-0111-fig30.png",
+  "vector_outputs": [
+    "images/recreated/b-0111-fig30.pdf",
+    "images/recreated/b-0111-fig30.svg"
+  ],
+  "text_outside_canvas": []
+}

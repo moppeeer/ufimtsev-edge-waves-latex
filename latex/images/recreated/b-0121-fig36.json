@@ -1,0 +1,16 @@
+{
+  "asset": "b-0121-fig36",
+  "figure": 36,
+  "method": "vector schematic",
+  "description": "Paraboloid illuminated along its symmetry axis, including rim angles and dimensions.",
+  "equations": [],
+  "details": {
+    "construction": "Independently redrawn paths, dimension arrows, angle arcs and editable labels from the source figure."
+  },
+  "source_crop": "images/b-0121-fig36.png",
+  "vector_outputs": [
+    "images/recreated/b-0121-fig36.pdf",
+    "images/recreated/b-0121-fig36.svg"
+  ],
+  "text_outside_canvas": []
+}

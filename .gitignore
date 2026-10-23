@@ -1,0 +1,19 @@
+# TeX build products
+latex/main.aux
+latex/main.log
+latex/main.out
+latex/main.synctex.gz
+latex/main.xdv
+latex/main.pdf
+
+# Python caches and local environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Editor and operating-system files
+.DS_Store
+Thumbs.db
+*.swp
+

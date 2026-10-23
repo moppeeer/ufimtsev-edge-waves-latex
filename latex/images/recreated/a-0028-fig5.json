@@ -1,0 +1,14 @@
+{
+  "asset": "a-0028-fig5",
+  "figure": 5,
+  "method": "schematic",
+  "description": "Single illuminated wedge face, incident ray, reflection and shadow boundaries",
+  "equations": [],
+  "details": {},
+  "source_crop": "images/a-0028-fig5.png",
+  "vector_outputs": [
+    "images/recreated/a-0028-fig5.pdf",
+    "images/recreated/a-0028-fig5.svg"
+  ],
+  "text_outside_canvas": []
+}

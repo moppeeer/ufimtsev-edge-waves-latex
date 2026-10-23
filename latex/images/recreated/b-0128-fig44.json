@@ -1,0 +1,24 @@
+{
+  "asset": "b-0128-fig44",
+  "figure": 44,
+  "method": "formula",
+  "description": "Spherical-segment and cone scattering for the same base dimensions and shadow angle.",
+  "equations": [
+    "19.12",
+    "17.08"
+  ],
+  "details": {
+    "a": 2.75,
+    "ka": "2.75*pi",
+    "k": "pi",
+    "Omega_degrees": 15,
+    "solid": "spherical segment",
+    "dashed": "cone"
+  },
+  "source_crop": "images/b-0128-fig44.png",
+  "vector_outputs": [
+    "images/recreated/b-0128-fig44.pdf",
+    "images/recreated/b-0128-fig44.svg"
+  ],
+  "text_outside_canvas": []
+}

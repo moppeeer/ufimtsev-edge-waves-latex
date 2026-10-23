@@ -1,0 +1,16 @@
+{
+  "asset": "b-0135-fig46",
+  "figure": 46,
+  "method": "vector schematic",
+  "description": "Diffraction by a half-plane: source, image source, observer, four propagation distances and local angles.",
+  "equations": [],
+  "details": {
+    "construction": "Independently redrawn paths, dimension arrows, angle arcs and editable labels from the source figure."
+  },
+  "source_crop": "images/b-0135-fig46.png",
+  "vector_outputs": [
+    "images/recreated/b-0135-fig46.pdf",
+    "images/recreated/b-0135-fig46.svg"
+  ],
+  "text_outside_canvas": []
+}

@@ -1,0 +1,18 @@
+{
+  "asset": "a-0001-emblem2",
+  "figure": null,
+  "method": "artwork-vector-tracing",
+  "description": "Historical organizational emblem converted into simplified closed vector contours, preserving the original artwork and lettering; no raster is embedded in the PDF/SVG.",
+  "equations": [],
+  "details": {
+    "threshold": 150,
+    "polygon_tolerance_px": 0.65,
+    "paths": 79
+  },
+  "source_crop": "images/a-0001-emblem2.png",
+  "vector_outputs": [
+    "images/recreated/a-0001-emblem2.pdf",
+    "images/recreated/a-0001-emblem2.svg"
+  ],
+  "text_outside_canvas": []
+}

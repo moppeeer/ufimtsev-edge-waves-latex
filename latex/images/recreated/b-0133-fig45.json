@@ -1,0 +1,16 @@
+{
+  "asset": "b-0133-fig45",
+  "figure": 45,
+  "method": "vector schematic",
+  "description": "Strip cross-section, incident normal and observation direction.",
+  "equations": [],
+  "details": {
+    "construction": "Independently redrawn paths, dimension arrows, angle arcs and editable labels from the source figure."
+  },
+  "source_crop": "images/b-0133-fig45.png",
+  "vector_outputs": [
+    "images/recreated/b-0133-fig45.pdf",
+    "images/recreated/b-0133-fig45.svg"
+  ],
+  "text_outside_canvas": []
+}

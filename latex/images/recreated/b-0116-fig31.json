@@ -1,0 +1,42 @@
+{
+  "asset": "b-0116-fig31",
+  "figure": 31,
+  "method": "mixed: formula and manually digitized experiment",
+  "description": "Finite cone effective scattering area versus length.",
+  "equations": [
+    "17.08",
+    "17.09",
+    "17.13"
+  ],
+  "details": {
+    "k": "pi",
+    "omega_degrees": 10.416666666666666,
+    "Omega_degrees": 90,
+    "a": "l*tan(omega)",
+    "normalization": "sigma=pi*a^2*|Sigma|^2; dimensionally consistent factor from17.13, rather than missing square in17.06",
+    "experimental_points_l_dB": [
+      [
+        4.0,
+        0.0
+      ],
+      [
+        6.1,
+        5.1
+      ],
+      [
+        10.0,
+        8.4
+      ],
+      [
+        15.0,
+        12.0
+      ]
+    ]
+  },
+  "source_crop": "images/b-0116-fig31.png",
+  "vector_outputs": [
+    "images/recreated/b-0116-fig31.pdf",
+    "images/recreated/b-0116-fig31.svg"
+  ],
+  "text_outside_canvas": []
+}

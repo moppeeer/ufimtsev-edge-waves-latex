@@ -1,0 +1,16 @@
+{
+  "asset": "b-0126-fig41",
+  "figure": 41,
+  "method": "vector schematic",
+  "description": "Spherical ring between two cutting planes, tangents, normal radius and axial dimensions.",
+  "equations": [],
+  "details": {
+    "construction": "Independently redrawn paths, dimension arrows, angle arcs and editable labels from the source figure."
+  },
+  "source_crop": "images/b-0126-fig41.png",
+  "vector_outputs": [
+    "images/recreated/b-0126-fig41.pdf",
+    "images/recreated/b-0126-fig41.svg"
+  ],
+  "text_outside_canvas": []
+}

@@ -1,0 +1,16 @@
+{
+  "asset": "c-0183-fig70",
+  "figure": 70,
+  "method": "geometry",
+  "description": "Independent vector reconstruction of the original scientific diagram.",
+  "equations": [],
+  "details": {
+    "source": "Original scanned figure, geometry and labels redrawn independently; no raster embedded."
+  },
+  "source_crop": "images/c-0183-fig70.png",
+  "vector_outputs": [
+    "images/recreated/c-0183-fig70.pdf",
+    "images/recreated/c-0183-fig70.svg"
+  ],
+  "text_outside_canvas": []
+}

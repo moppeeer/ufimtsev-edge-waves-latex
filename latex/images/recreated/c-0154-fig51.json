@@ -1,0 +1,112 @@
+{
+  "asset": "c-0154-fig51",
+  "figure": 51,
+  "method": "mixed",
+  "description": "Strip scattering magnitudes, with independently redrawn axes and comparison curves.",
+  "equations": [
+    "20.04",
+    "20.05",
+    "21.22",
+    "21.23",
+    "22.13",
+    "23.02",
+    "23.10",
+    "23.13",
+    "23.14",
+    "23.15"
+  ],
+  "details": {
+    "ka": 5.291502622129181,
+    "alpha_degrees": null,
+    "backscatter": true,
+    "drawn_computed_curves": [
+      "h2"
+    ],
+    "unsuffixed_curve": {
+      "label": "h",
+      "provenance": "Independently digitized published rigorous reference."
+    },
+    "rigorous_reference": {
+      "label": "h",
+      "control_points": [
+        [
+          0,
+          1.03
+        ],
+        [
+          5,
+          0.91
+        ],
+        [
+          10,
+          0.62
+        ],
+        [
+          15,
+          0.31
+        ],
+        [
+          20,
+          0.11
+        ],
+        [
+          25,
+          0.17
+        ],
+        [
+          30,
+          0.12
+        ],
+        [
+          35,
+          0.075
+        ],
+        [
+          40,
+          0.115
+        ],
+        [
+          45,
+          0.16
+        ],
+        [
+          50,
+          0.19
+        ],
+        [
+          55,
+          0.18
+        ],
+        [
+          60,
+          0.15
+        ],
+        [
+          65,
+          0.11
+        ],
+        [
+          70,
+          0.065
+        ],
+        [
+          80,
+          0.012
+        ],
+        [
+          90,
+          0
+        ]
+      ],
+      "interpolation": "PCHIP",
+      "qualification": "Manual grid reading of published rigorous reference; approximate digitization, not a new rigorous solver."
+    },
+    "endpoint_evaluation": "One-sided numerical angular limit, 2e-6 radians; removable forward singularity evaluated at1e-6 radians."
+  },
+  "source_crop": "images/c-0154-fig51.png",
+  "vector_outputs": [
+    "images/recreated/c-0154-fig51.pdf",
+    "images/recreated/c-0154-fig51.svg"
+  ],
+  "text_outside_canvas": []
+}

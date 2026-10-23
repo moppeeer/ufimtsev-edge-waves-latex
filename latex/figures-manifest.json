@@ -1,0 +1,5285 @@
+{
+  "total_assets": 83,
+  "numbered_figures": 80,
+  "source_aspect_preserved": true,
+  "categories": {
+    "decorative-redraw": 1,
+    "vector-traced-artwork": 2,
+    "geometric-redraw": 35,
+    "calculated": 19,
+    "calculated-and-digitized": 25,
+    "digitized": 1
+  },
+  "issues": [],
+  "status": "pass",
+  "runtime_versions": {
+    "numpy": "2.5.4",
+    "scipy": "1.18.1",
+    "matplotlib": "3.11.2",
+    "Pillow": "13.0.0",
+    "scikit-image": "0.26.0",
+    "pypdf": "6.10.0"
+  },
+  "figures": [
+    {
+      "asset": "a-0000-cover-graph",
+      "figure": null,
+      "method": "decorative-geometric-redraw",
+      "description": "Unlabelled cover motif recreated parametrically as a blue field, white grid, rising oscillatory curve and dashed lobes. Decorative reconstruction, not a scientific data plot.",
+      "equations": [],
+      "details": {},
+      "source_crop": "images/a-0000-cover-graph.png",
+      "vector_outputs": [
+        "images/recreated/a-0000-cover-graph.pdf",
+        "images/recreated/a-0000-cover-graph.svg"
+      ],
+      "text_outside_canvas": [],
+      "category": "decorative-redraw",
+      "verification": {
+        "one_pdf_page": true,
+        "raster_objects": 0,
+        "aspect_relative_error": 2.042810365310288e-14,
+        "text_outside_canvas": []
+      }
+    },
+    {
+      "asset": "a-0001-emblem1",
+      "figure": null,
+      "method": "artwork-vector-tracing",
+      "description": "Historical organizational emblem converted into simplified closed vector contours, preserving the original artwork and lettering; no raster is embedded in the PDF/SVG.",
+      "equations": [],
+      "details": {
+        "threshold": 150,
+        "polygon_tolerance_px": 0.65,
+        "paths": 47
+      },
+      "source_crop": "images/a-0001-emblem1.png",
+      "vector_outputs": [
+        "images/recreated/a-0001-emblem1.pdf",
+        "images/recreated/a-0001-emblem1.svg"
+      ],
+      "text_outside_canvas": [],
+      "category": "vector-traced-artwork",
+      "verification": {
+        "one_pdf_page": true,
+        "raster_objects": 0,
+        "aspect_relative_error": 0.0,
+        "text_outside_canvas": []
+      }
+    },
+    {
+      "asset": "a-0001-emblem2",
+      "figure": null,
+      "method": "artwork-vector-tracing",
+      "description": "Historical organizational emblem converted into simplified closed vector contours, preserving the original artwork and lettering; no raster is embedded in the PDF/SVG.",
+      "equations": [],
+      "details": {
+        "threshold": 150,
+        "polygon_tolerance_px": 0.65,
+        "paths": 79
+      },
+      "source_crop": "images/a-0001-emblem2.png",
+      "vector_outputs": [
+        "images/recreated/a-0001-emblem2.pdf",
+        "images/recreated/a-0001-emblem2.svg"
+      ],
+      "text_outside_canvas": [],
+      "category": "vector-traced-artwork",
+      "verification": {
+        "one_pdf_page": true,
+        "raster_objects": 0,
+        "aspect_relative_error": 1.0835776720341528e-13,
+        "text_outside_canvas": []
+      }
+    },
+    {
+      "asset": "a-0020-fig",
+      "figure": 1,
+      "method": "schematic",
+      "description": "Wedge, source and observation directions, and annular Green integration contour",
+      "equations": [
+        "1.10"
+      ],
+      "details": {},
+      "source_crop": "images/a-0020-fig.png",
+      "vector_outputs": [
+        "images/recreated/a-0020-fig.pdf",
+        "images/recreated/a-0020-fig.svg"
+      ],
+      "text_outside_canvas": [],
+      "category": "geometric-redraw",
+      "verification": {
+        "one_pdf_page": true,
+        "raster_objects": 0,
+        "aspect_relative_error": 9.703349235223868e-14,
+        "text_outside_canvas": []
+      }
+    },
+    {
+      "asset": "a-0026-fig2",
+      "figure": 2,
+      "method": "schematic",
+      "description": "Translated Sommerfeld integration paths and alternating convergence half-strips",
+      "equations": [
+        "1.27"
+      ],
+      "details": {},
+      "source_crop": "images/a-0026-fig2.png",
+      "vector_outputs": [
+        "images/recreated/a-0026-fig2.pdf",
+        "images/recreated/a-0026-fig2.svg"
+      ],
+      "text_outside_canvas": [],
+      "category": "geometric-redraw",
+      "verification": {
+        "one_pdf_page": true,
+        "raster_objects": 0,
+        "aspect_relative_error": 8.37108160567368e-14,
+        "text_outside_canvas": []
+      }
+    },
+    {
+      "asset": "a-0026-fig3",
+      "figure": 3,
+      "method": "schematic",
+      "description": "Sommerfeld contour C and deformation D through the saddle points",
+      "equations": [
+        "1.28",
+        "1.29"
+      ],
+      "details": {},
+      "source_crop": "images/a-0026-fig3.png",
+      "vector_outputs": [
+        "images/recreated/a-0026-fig3.pdf",
+        "images/recreated/a-0026-fig3.svg"
+      ],
+      "text_outside_canvas": [],
+      "category": "geometric-redraw",
+      "verification": {
+        "one_pdf_page": true,
+        "raster_objects": 0,
+        "aspect_relative_error": 3.175237850427948e-14,
+        "text_outside_canvas": []
+      }
+    },
+    {
+      "asset": "a-0028-fig4",
+      "figure": 4,
+      "method": "analytic",
+      "description": "Steepest descent contour with asymptotes at Re(zeta)=+/-pi/2",
+      "equations": [
+        "1.30"
+      ],
+      "details": {
+        "curve": "Im(zeta)=-asinh(tan(Re(zeta)))"
+      },
+      "source_crop": "images/a-0028-fig4.png",
+      "vector_outputs": [
+        "images/recreated/a-0028-fig4.pdf",
+        "images/recreated/a-0028-fig4.svg"
+      ],
+      "text_outside_canvas": [],
+      "category": "calculated",
+      "verification": {
+        "one_pdf_page": true,
+        "raster_objects": 0,
+        "aspect_relative_error": 0.0,
+        "text_outside_canvas": []
+      }
+    },
+    {
+      "asset": "a-0028-fig5",
+      "figure": 5,
+      "method": "schematic",
+      "description": "Single illuminated wedge face, incident ray, reflection and shadow boundaries",
+      "equations": [],
+      "details": {},
+      "source_crop": "images/a-0028-fig5.png",
+      "vector_outputs": [
+        "images/recreated/a-0028-fig5.pdf",
+        "images/recreated/a-0028-fig5.svg"
+      ],
+      "text_outside_canvas": [],
+      "category": "geometric-redraw",
+      "verification": {
+        "one_pdf_page": true,
+        "raster_objects": 0,
+        "aspect_relative_error": 7.860379014346108e-14,
+        "text_outside_canvas": []
+      }
+    },
+    {
+      "asset": "a-0028-fig6",
+      "figure": 6,
+      "method": "schematic",
+      "description": "Both illuminated wedge faces and their specular-ray boundaries",
+      "equations": [],
+      "details": {},
+      "source_crop": "images/a-0028-fig6.png",
+      "vector_outputs": [
+        "images/recreated/a-0028-fig6.pdf",
+        "images/recreated/a-0028-fig6.svg"
+      ],
+      "text_outside_canvas": [],
+      "category": "geometric-redraw",
+      "verification": {
+        "one_pdf_page": true,
+        "raster_objects": 0,
+        "aspect_relative_error": 1.8984813721090177e-13,
+        "text_outside_canvas": []
+      }
+    },
+    {
+      "asset": "a-0038-fig7",
+      "figure": 7,
+      "method": "schematic",
+      "description": "Integration contour F and its deformations G1/G2 in the complex xi plane",
+      "equations": [
+        "3.14",
+        "3.15"
+      ],
+      "details": {
+        "schematic_parameters": "Representative placements preserve labeled boundaries and path topology; not a quantitative complex-plane scale."
+      },
+      "source_crop": "images/a-0038-fig7.png",
+      "vector_outputs": [
+        "images/recreated/a-0038-fig7.pdf",
+        "images/recreated/a-0038-fig7.svg"
+      ],
+      "text_outside_canvas": [],
+      "category": "geometric-redraw",
+      "verification": {
+        "one_pdf_page": true,
+        "raster_objects": 0,
+        "aspect_relative_error": 1.865174681370263e-14,
+        "text_outside_canvas": []
+      }
+    },
+    {
+      "asset": "a-0047-fig8",
+      "figure": 8,
+      "method": "analytic",
+      "description": "Polar magnitude diagrams of the nonuniform-current diffraction coefficients",
+      "equations": [
+        "4.07",
+        "4.08",
+        "4.09",
+        "4.10"
+      ],
+      "details": {
+        "alpha_degrees": 360,
+        "incident_angle_degrees": 150,
+        "monostatic": false,
+        "radius": "absolute coefficient; signs encoded by solid/dashed/dash-dot styles",
+        "singularities": "Removable cancellations avoided by offset sampling and finite-value interpolation only."
+      },
+      "source_crop": "images/a-0047-fig8.png",
+      "vector_outputs": [
+        "images/recreated/a-0047-fig8.pdf",
+        "images/recreated/a-0047-fig8.svg"
+      ],
+      "text_outside_canvas": [],
+      "category": "calculated",
+      "verification": {
+        "one_pdf_page": true,
+        "raster_objects": 0,
+        "aspect_relative_error": 9.270362255620057e-14,
+        "text_outside_canvas": []
+      }
+    },
+    {
+      "asset": "a-0047-fig9",
+      "figure": 9,
+      "method": "analytic",
+      "description": "Polar magnitude diagrams of the nonuniform-current diffraction coefficients",
+      "equations": [
+        "4.07",
+        "4.08",
+        "4.09",
+        "4.10"
+      ],
+      "details": {
+        "alpha_degrees": 360,
+        "incident_angle_degrees": null,
+        "monostatic": true,
+        "radius": "absolute coefficient; signs encoded by solid/dashed/dash-dot styles",
+        "singularities": "Removable cancellations avoided by offset sampling and finite-value interpolation only."
+      },
+      "source_crop": "images/a-0047-fig9.png",
+      "vector_outputs": [
+        "images/recreated/a-0047-fig9.pdf",
+        "images/recreated/a-0047-fig9.svg"
+      ],
+      "text_outside_canvas": [],
+      "category": "calculated",
+      "verification": {
+        "one_pdf_page": true,
+        "raster_objects": 0,
+        "aspect_relative_error": 1.8207657603852567e-14,
+        "text_outside_canvas": []
+      }
+    },
+    {
+      "asset": "a-0048-fig10",
+      "figure": 10,
+      "method": "analytic",
+      "description": "Polar magnitude diagrams of the nonuniform-current diffraction coefficients",
+      "equations": [
+        "4.07",
+        "4.08",
+        "4.09",
+        "4.10"
+      ],
+      "details": {
+        "alpha_degrees": 270,
+        "incident_angle_degrees": 30,
+        "monostatic": false,
+        "radius": "absolute coefficient; signs encoded by solid/dashed/dash-dot styles",
+        "singularities": "Removable cancellations avoided by offset sampling and finite-value interpolation only."
+      },
+      "source_crop": "images/a-0048-fig10.png",
+      "vector_outputs": [
+        "images/recreated/a-0048-fig10.pdf",
+        "images/recreated/a-0048-fig10.svg"
+      ],
+      "text_outside_canvas": [],
+      "category": "calculated",
+      "verification": {
+        "one_pdf_page": true,
+        "raster_objects": 0,
+        "aspect_relative_error": 8.471001677889944e-14,
+        "text_outside_canvas": []
+      }
+    },
+    {
+      "asset": "a-0048-fig11",
+      "figure": 11,
+      "method": "analytic",
+      "description": "Polar magnitude diagrams of the nonuniform-current diffraction coefficients",
+      "equations": [
+        "4.07",
+        "4.08",
+        "4.09",
+        "4.10"
+      ],
+      "details": {
+        "alpha_degrees": 270,
+        "incident_angle_degrees": 150,
+        "monostatic": false,
+        "radius": "absolute coefficient; signs encoded by solid/dashed/dash-dot styles",
+        "singularities": "Removable cancellations avoided by offset sampling and finite-value interpolation only."
+      },
+      "source_crop": "images/a-0048-fig11.png",
+      "vector_outputs": [
+        "images/recreated/a-0048-fig11.pdf",
+        "images/recreated/a-0048-fig11.svg"
+      ],
+      "text_outside_canvas": [],
+      "category": "calculated",
+      "verification": {
+        "one_pdf_page": true,
+        "raster_objects": 0,
+        "aspect_relative_error": 8.415490526658687e-14,
+        "text_outside_canvas": []
+      }
+    },
+    {
+      "asset": "a-0049-fig12",
+      "figure": 12,
+      "method": "analytic",
+      "description": "Polar magnitude diagrams of the nonuniform-current diffraction coefficients",
+      "equations": [
+        "4.07",
+        "4.08",
+        "4.09",
+        "4.10"
+      ],
+      "details": {
+        "alpha_degrees": 270,
+        "incident_angle_degrees": null,
+        "monostatic": true,
+        "radius": "absolute coefficient; signs encoded by solid/dashed/dash-dot styles",
+        "singularities": "Removable cancellations avoided by offset sampling and finite-value interpolation only."
+      },
+      "source_crop": "images/a-0049-fig12.png",
+      "vector_outputs": [
+        "images/recreated/a-0049-fig12.pdf",
+        "images/recreated/a-0049-fig12.svg"
+      ],
+      "text_outside_canvas": [],
+      "category": "calculated",
+      "verification": {
+        "one_pdf_page": true,
+        "raster_objects": 0,
+        "aspect_relative_error": 9.059419880941277e-14,
+        "text_outside_canvas": []
+      }
+    },
+    {
+      "asset": "a-0049-fig13",
+      "figure": 13,
+      "method": "analytic",
+      "description": "Polar magnitude diagrams of the nonuniform-current diffraction coefficients",
+      "equations": [
+        "4.07",
+        "4.08",
+        "4.09",
+        "4.10"
+      ],
+      "details": {
+        "alpha_degrees": 210,
+        "incident_angle_degrees": null,
+        "monostatic": true,
+        "radius": "absolute coefficient; signs encoded by solid/dashed/dash-dot styles",
+        "singularities": "Removable cancellations avoided by offset sampling and finite-value interpolation only."
+      },
+      "source_crop": "images/a-0049-fig13.png",
+      "vector_outputs": [
+        "images/recreated/a-0049-fig13.pdf",
+        "images/recreated/a-0049-fig13.svg"
+      ],
+      "text_outside_canvas": [],
+      "category": "calculated",
+      "verification": {
+        "one_pdf_page": true,
+        "raster_objects": 0,
+        "aspect_relative_error": 1.0524914273446484e-13,
+        "text_outside_canvas": []
+      }
+    },
+    {
+      "asset": "a-0050-fig14",
+      "figure": 14,
+      "method": "schematic",
+      "description": "Oblique plane-wave incidence on a conducting wedge; gamma measured to the edge",
+      "equations": [],
+      "details": {},
+      "source_crop": "images/a-0050-fig14.png",
+      "vector_outputs": [
+        "images/recreated/a-0050-fig14.pdf",
+        "images/recreated/a-0050-fig14.svg"
+      ],
+      "text_outside_canvas": [],
+      "category": "geometric-redraw",
+      "verification": {
+        "one_pdf_page": true,
+        "raster_objects": 0,
+        "aspect_relative_error": 3.863576125695545e-14,
+        "text_outside_canvas": []
+      }
+    },
+    {
+      "asset": "a-0053-fig15",
+      "figure": 15,
+      "method": "schematic",
+      "description": "Cone of diffracted rays and local transverse basis",
+      "equations": [
+        "5.15",
+        "5.16"
+      ],
+      "details": {},
+      "source_crop": "images/a-0053-fig15.png",
+      "vector_outputs": [
+        "images/recreated/a-0053-fig15.pdf",
+        "images/recreated/a-0053-fig15.svg"
+      ],
+      "text_outside_canvas": [],
+      "category": "geometric-redraw",
+      "verification": {
+        "one_pdf_page": true,
+        "raster_objects": 0,
+        "aspect_relative_error": 1.765254609153999e-14,
+        "text_outside_canvas": []
+      }
+    },
+    {
+      "asset": "a-0053-fig16",
+      "figure": 16,
+      "method": "schematic",
+      "description": "Strip cross-section, incidence normal and observation coordinates",
+      "equations": [],
+      "details": {},
+      "source_crop": "images/a-0053-fig16.png",
+      "vector_outputs": [
+        "images/recreated/a-0053-fig16.pdf",
+        "images/recreated/a-0053-fig16.svg"
+      ],
+      "text_outside_canvas": [],
+      "category": "geometric-redraw",
+      "verification": {
+        "one_pdf_page": true,
+        "raster_objects": 0,
+        "aspect_relative_error": 2.7533531010703882e-14,
+        "text_outside_canvas": []
+      }
+    },
+    {
+      "asset": "a-0061-fig17",
+      "figure": 17,
+      "method": "schematic",
+      "description": "Disk surface point and observation point geometry",
+      "equations": [
+        "7.03",
+        "7.04",
+        "7.05"
+      ],
+      "details": {},
+      "source_crop": "images/a-0061-fig17.png",
+      "vector_outputs": [
+        "images/recreated/a-0061-fig17.pdf",
+        "images/recreated/a-0061-fig17.svg"
+      ],
+      "text_outside_canvas": [],
+      "category": "geometric-redraw",
+      "verification": {
+        "one_pdf_page": true,
+        "raster_objects": 0,
+        "aspect_relative_error": 8.43769498715119e-15,
+        "text_outside_canvas": []
+      }
+    },
+    {
+      "asset": "a-0063-fig18",
+      "figure": 18,
+      "method": "schematic",
+      "description": "Luminous disk sector bounded by the first Fresnel zone",
+      "equations": [
+        "7.14",
+        "7.15",
+        "7.16"
+      ],
+      "details": {},
+      "source_crop": "images/a-0063-fig18.png",
+      "vector_outputs": [
+        "images/recreated/a-0063-fig18.pdf",
+        "images/recreated/a-0063-fig18.svg"
+      ],
+      "text_outside_canvas": [],
+      "category": "geometric-redraw",
+      "verification": {
+        "one_pdf_page": true,
+        "raster_objects": 0,
+        "aspect_relative_error": 1.2323475573339238e-13,
+        "text_outside_canvas": []
+      }
+    },
+    {
+      "asset": "a-0067-fig19",
+      "figure": 19,
+      "method": "schematic",
+      "description": "Disk and auxiliary half-plane tangent at y1=a, x1=0",
+      "equations": [],
+      "details": {},
+      "source_crop": "images/a-0067-fig19.png",
+      "vector_outputs": [
+        "images/recreated/a-0067-fig19.pdf",
+        "images/recreated/a-0067-fig19.svg"
+      ],
+      "text_outside_canvas": [],
+      "category": "geometric-redraw",
+      "verification": {
+        "one_pdf_page": true,
+        "raster_objects": 0,
+        "aspect_relative_error": 2.042810365310288e-14,
+        "text_outside_canvas": []
+      }
+    },
+    {
+      "asset": "a-0072-fig20",
+      "figure": 20,
+      "method": "mixed",
+      "description": "Disk diffraction magnitude/phase at ka=5: analytic physical optics and edge-wave approximation with manually digitized rigorous reference",
+      "equations": [
+        "7.11",
+        "9.03",
+        "9.05",
+        "9.07"
+      ],
+      "details": {
+        "analytic_curves": [
+          "dash-dot physical-optics magnitude",
+          "dashed edge-wave magnitude and phase"
+        ],
+        "digitized_curves": [
+          "solid rigorous-theory magnitude",
+          "solid rigorous-theory phase"
+        ],
+        "digitized_control_points": {
+          "theta": [
+            0,
+            10,
+            20,
+            30,
+            40,
+            45,
+            50,
+            60,
+            75,
+            90
+          ],
+          "magnitude": [
+            1.0,
+            0.915,
+            0.685,
+            0.405,
+            0.185,
+            0.12,
+            0.092,
+            0.113,
+            0.125,
+            0.124
+          ],
+          "phase": [
+            3,
+            5,
+            9,
+            18,
+            43,
+            65,
+            96,
+            141,
+            164,
+            168
+          ]
+        },
+        "digitization": "Manual visual readings of source grid, reflected about90 degrees and PCHIP-interpolated. Source does not supply numerical reference34 data; these solid curves are approximate reconstructions, not new exact computations.",
+        "phase_display": "Magnitude of phase; right-half V2 phase shown with180-degree branch adjustment as source labels."
+      },
+      "source_crop": "images/a-0072-fig20.png",
+      "vector_outputs": [
+        "images/recreated/a-0072-fig20.pdf",
+        "images/recreated/a-0072-fig20.svg"
+      ],
+      "text_outside_canvas": [],
+      "category": "calculated-and-digitized",
+      "verification": {
+        "one_pdf_page": true,
+        "raster_objects": 0,
+        "aspect_relative_error": 2.55351295663786e-14,
+        "text_outside_canvas": []
+      }
+    },
+    {
+      "asset": "a-0073-fig21",
+      "figure": 21,
+      "method": "mixed",
+      "description": "Disk diffraction magnitude/phase at ka=5: analytic physical optics and edge-wave approximation with manually digitized rigorous reference",
+      "equations": [
+        "7.11",
+        "9.03",
+        "9.05",
+        "9.07"
+      ],
+      "details": {
+        "analytic_curves": [
+          "dash-dot physical-optics magnitude",
+          "dashed edge-wave magnitude and phase"
+        ],
+        "digitized_curves": [
+          "solid rigorous-theory magnitude",
+          "solid rigorous-theory phase"
+        ],
+        "digitized_control_points": {
+          "theta": [
+            0,
+            10,
+            20,
+            30,
+            35,
+            40,
+            45,
+            50,
+            60,
+            75,
+            90
+          ],
+          "magnitude": [
+            1.0,
+            0.91,
+            0.675,
+            0.35,
+            0.23,
+            0.17,
+            0.16,
+            0.154,
+            0.148,
+            0.145,
+            0.145
+          ],
+          "phase": [
+            1,
+            4,
+            10,
+            18,
+            32,
+            56,
+            82,
+            106,
+            124,
+            132,
+            134
+          ]
+        },
+        "digitization": "Manual visual readings of source grid, reflected about90 degrees and PCHIP-interpolated. Source does not supply numerical reference34 data; these solid curves are approximate reconstructions, not new exact computations.",
+        "phase_display": "Magnitude of phase; right-half V2 phase shown with180-degree branch adjustment as source labels."
+      },
+      "source_crop": "images/a-0073-fig21.png",
+      "vector_outputs": [
+        "images/recreated/a-0073-fig21.pdf",
+        "images/recreated/a-0073-fig21.svg"
+      ],
+      "text_outside_canvas": [],
+      "category": "calculated-and-digitized",
+      "verification": {
+        "one_pdf_page": true,
+        "raster_objects": 0,
+        "aspect_relative_error": 1.0436096431476471e-14,
+        "text_outside_canvas": []
+      }
+    },
+    {
+      "asset": "a-0075-fig22",
+      "figure": 22,
+      "method": "schematic",
+      "description": "Obliquely incident plane wave and spherical disk observation geometry",
+      "equations": [
+        "10.01"
+      ],
+      "details": {},
+      "source_crop": "images/a-0075-fig22.png",
+      "vector_outputs": [
+        "images/recreated/a-0075-fig22.pdf",
+        "images/recreated/a-0075-fig22.svg"
+      ],
+      "text_outside_canvas": [],
+      "category": "geometric-redraw",
+      "verification": {
+        "one_pdf_page": true,
+        "raster_objects": 0,
+        "aspect_relative_error": 1.0313971898767704e-13,
+        "text_outside_canvas": []
+      }
+    },
+    {
+      "asset": "a-0077-fig23",
+      "figure": 23,
+      "method": "schematic",
+      "description": "Auxiliary half-plane and projected observation coordinates for oblique incidence",
+      "equations": [
+        "11.06",
+        "11.10",
+        "11.14"
+      ],
+      "details": {},
+      "source_crop": "images/a-0077-fig23.png",
+      "vector_outputs": [
+        "images/recreated/a-0077-fig23.pdf",
+        "images/recreated/a-0077-fig23.svg"
+      ],
+      "text_outside_canvas": [],
+      "category": "geometric-redraw",
+      "verification": {
+        "one_pdf_page": true,
+        "raster_objects": 0,
+        "aspect_relative_error": 1.0591527654923993e-13,
+        "text_outside_canvas": []
+      }
+    },
+    {
+      "asset": "b-0091-fig24",
+      "figure": 24,
+      "method": "vector schematic",
+      "description": "Finite cylinder, source normal, observation angle and the three luminous edge points.",
+      "equations": [],
+      "details": {
+        "construction": "Independently redrawn paths, dimension arrows, angle arcs and editable labels from the source figure."
+      },
+      "source_crop": "images/b-0091-fig24.png",
+      "vector_outputs": [
+        "images/recreated/b-0091-fig24.pdf",
+        "images/recreated/b-0091-fig24.svg"
+      ],
+      "text_outside_canvas": [],
+      "category": "geometric-redraw",
+      "verification": {
+        "one_pdf_page": true,
+        "raster_objects": 0,
+        "aspect_relative_error": 0.0,
+        "text_outside_canvas": []
+      }
+    },
+    {
+      "asset": "b-0104-fig25",
+      "figure": 25,
+      "method": "mixed: formula and manually digitized experiment",
+      "description": "Finite-cylinder radar scattering, E-polarization.",
+      "equations": [
+        "15.02",
+        "15.04",
+        "15.05",
+        "15.08"
+      ],
+      "details": {
+        "ka": "pi",
+        "kl": "10*pi",
+        "theory": "direct Bessel-function evaluation",
+        "experimental_control_points_theta_deg_dB": [
+          [
+            90.0,
+            20.0
+          ],
+          [
+            91.5,
+            17.3
+          ],
+          [
+            93.0,
+            10.0
+          ],
+          [
+            94.3,
+            -5.8
+          ],
+          [
+            95.7,
+            9.7
+          ],
+          [
+            97.7,
+            -7.0
+          ],
+          [
+            99.5,
+            5.8
+          ],
+          [
+            102.0,
+            -8.8
+          ],
+          [
+            104.0,
+            2.7
+          ],
+          [
+            106.2,
+            -9.0
+          ],
+          [
+            108.5,
+            0.0
+          ],
+          [
+            111.0,
+            -9.0
+          ],
+          [
+            113.8,
+            -2.5
+          ],
+          [
+            116.5,
+            -9.0
+          ],
+          [
+            119.8,
+            -4.0
+          ],
+          [
+            123.0,
+            -9.0
+          ],
+          [
+            127.0,
+            -4.5
+          ],
+          [
+            131.0,
+            -9.0
+          ],
+          [
+            135.0,
+            -4.6
+          ],
+          [
+            140.0,
+            -8.0
+          ],
+          [
+            145.0,
+            -3.1
+          ],
+          [
+            150.0,
+            2.2
+          ],
+          [
+            155.0,
+            7.0
+          ],
+          [
+            160.0,
+            9.1
+          ],
+          [
+            165.0,
+            9.7
+          ],
+          [
+            170.0,
+            9.9
+          ],
+          [
+            175.0,
+            10.0
+          ],
+          [
+            180.0,
+            10.0
+          ]
+        ],
+        "experimental_uncertainty": "Visual estimates from a damaged print; approximately 1–2 dB, larger in narrow minima. No original numerical measurement table exists in the supplied book."
+      },
+      "source_crop": "images/b-0104-fig25.png",
+      "vector_outputs": [
+        "images/recreated/b-0104-fig25.pdf",
+        "images/recreated/b-0104-fig25.svg"
+      ],
+      "text_outside_canvas": [],
+      "category": "calculated-and-digitized",
+      "verification": {
+        "one_pdf_page": true,
+        "raster_objects": 0,
+        "aspect_relative_error": 4.529709940470639e-14,
+        "text_outside_canvas": []
+      }
+    },
+    {
+      "asset": "b-0104-fig26",
+      "figure": 26,
+      "method": "mixed: formula and manually digitized experiment",
+      "description": "Finite-cylinder radar scattering, H-polarization.",
+      "equations": [
+        "15.02",
+        "15.04",
+        "15.05",
+        "15.09"
+      ],
+      "details": {
+        "ka": "pi",
+        "kl": "10*pi",
+        "theory": "direct Bessel-function evaluation",
+        "experimental_control_points_theta_deg_dB": [
+          [
+            90.0,
+            20.0
+          ],
+          [
+            91.6,
+            16.5
+          ],
+          [
+            93.0,
+            6.0
+          ],
+          [
+            94.2,
+            -7.0
+          ],
+          [
+            95.8,
+            6.8
+          ],
+          [
+            98.0,
+            -7.8
+          ],
+          [
+            100.0,
+            2.6
+          ],
+          [
+            103.0,
+            -8.8
+          ],
+          [
+            105.5,
+            1.0
+          ],
+          [
+            108.0,
+            -10.0
+          ],
+          [
+            111.0,
+            -0.2
+          ],
+          [
+            114.0,
+            -8.0
+          ],
+          [
+            117.0,
+            -1.5
+          ],
+          [
+            120.0,
+            -11.0
+          ],
+          [
+            123.0,
+            -1.3
+          ],
+          [
+            126.0,
+            -11.0
+          ],
+          [
+            130.0,
+            -3.0
+          ],
+          [
+            134.0,
+            -12.0
+          ],
+          [
+            138.0,
+            -3.5
+          ],
+          [
+            142.0,
+            -8.0
+          ],
+          [
+            146.0,
+            2.0
+          ],
+          [
+            149.0,
+            -1.0
+          ],
+          [
+            153.0,
+            4.0
+          ],
+          [
+            157.0,
+            9.1
+          ],
+          [
+            161.0,
+            10.1
+          ],
+          [
+            166.0,
+            9.4
+          ],
+          [
+            171.0,
+            8.8
+          ],
+          [
+            176.0,
+            9.1
+          ],
+          [
+            180.0,
+            10.0
+          ]
+        ],
+        "experimental_uncertainty": "Visual estimates from a damaged print; approximately 1–2 dB, larger in narrow minima. No original numerical measurement table exists in the supplied book."
+      },
+      "source_crop": "images/b-0104-fig26.png",
+      "vector_outputs": [
+        "images/recreated/b-0104-fig26.pdf",
+        "images/recreated/b-0104-fig26.svg"
+      ],
+      "text_outside_canvas": [],
+      "category": "calculated-and-digitized",
+      "verification": {
+        "one_pdf_page": true,
+        "raster_objects": 0,
+        "aspect_relative_error": 3.774758283725532e-15,
+        "text_outside_canvas": []
+      }
+    },
+    {
+      "asset": "b-0105-fig27",
+      "figure": 27,
+      "method": "formula",
+      "description": "Physical-optics scattering by the cylindrical lateral surface.",
+      "equations": [
+        "13.25",
+        "13.23"
+      ],
+      "details": {
+        "ka": "pi",
+        "kl": "10*pi",
+        "normalization": "sigma/(pi*a^2)",
+        "source_discrepancy": "Original caption cites interpolation13.26. The printed monotonically rising lobe envelope instead matches asymptotic13.25, evaluated here. Direct13.26 produces a Bessel-envelope dip near140 degrees absent from the original plot. Original book caption is preserved."
+      },
+      "source_crop": "images/b-0105-fig27.png",
+      "vector_outputs": [
+        "images/recreated/b-0105-fig27.pdf",
+        "images/recreated/b-0105-fig27.svg"
+      ],
+      "text_outside_canvas": [],
+      "category": "calculated",
+      "verification": {
+        "one_pdf_page": true,
+        "raster_objects": 0,
+        "aspect_relative_error": 6.616929226765933e-14,
+        "text_outside_canvas": []
+      }
+    },
+    {
+      "asset": "b-0109-fig28",
+      "figure": 28,
+      "method": "vector schematic",
+      "description": "Conical body: axial length, both slant lengths, rim radius and illuminated/shadowed face angles.",
+      "equations": [],
+      "details": {
+        "construction": "Independently redrawn paths, dimension arrows, angle arcs and editable labels from the source figure."
+      },
+      "source_crop": "images/b-0109-fig28.png",
+      "vector_outputs": [
+        "images/recreated/b-0109-fig28.pdf",
+        "images/recreated/b-0109-fig28.svg"
+      ],
+      "text_outside_canvas": [],
+      "category": "geometric-redraw",
+      "verification": {
+        "one_pdf_page": true,
+        "raster_objects": 0,
+        "aspect_relative_error": 1.3877787807814457e-13,
+        "text_outside_canvas": []
+      }
+    },
+    {
+      "asset": "b-0109-fig29",
+      "figure": 29,
+      "method": "vector schematic",
+      "description": "Local dihedral wedge, observation ray and local cylindrical angle; hatching restored from the clearer GWU scan.",
+      "equations": [],
+      "details": {
+        "construction": "Independently redrawn paths, dimension arrows, angle arcs and editable labels from the source figure."
+      },
+      "source_crop": "images/b-0109-fig29.png",
+      "vector_outputs": [
+        "images/recreated/b-0109-fig29.pdf",
+        "images/recreated/b-0109-fig29.svg"
+      ],
+      "text_outside_canvas": [],
+      "category": "geometric-redraw",
+      "verification": {
+        "one_pdf_page": true,
+        "raster_objects": 0,
+        "aspect_relative_error": 2.1671553440683056e-13,
+        "text_outside_canvas": []
+      }
+    },
+    {
+      "asset": "b-0111-fig30",
+      "figure": 30,
+      "method": "vector schematic",
+      "description": "Relative orientation of the local unit vectors for forward and backward observation.",
+      "equations": [],
+      "details": {
+        "construction": "Independently redrawn paths, dimension arrows, angle arcs and editable labels from the source figure."
+      },
+      "source_crop": "images/b-0111-fig30.png",
+      "vector_outputs": [
+        "images/recreated/b-0111-fig30.pdf",
+        "images/recreated/b-0111-fig30.svg"
+      ],
+      "text_outside_canvas": [],
+      "category": "geometric-redraw",
+      "verification": {
+        "one_pdf_page": true,
+        "raster_objects": 0,
+        "aspect_relative_error": 1.3389289676979388e-13,
+        "text_outside_canvas": []
+      }
+    },
+    {
+      "asset": "b-0116-fig31",
+      "figure": 31,
+      "method": "mixed: formula and manually digitized experiment",
+      "description": "Finite cone effective scattering area versus length.",
+      "equations": [
+        "17.08",
+        "17.09",
+        "17.13"
+      ],
+      "details": {
+        "k": "pi",
+        "omega_degrees": 10.416666666666666,
+        "Omega_degrees": 90,
+        "a": "l*tan(omega)",
+        "normalization": "sigma=pi*a^2*|Sigma|^2; dimensionally consistent factor from17.13, rather than missing square in17.06",
+        "experimental_points_l_dB": [
+          [
+            4.0,
+            0.0
+          ],
+          [
+            6.1,
+            5.1
+          ],
+          [
+            10.0,
+            8.4
+          ],
+          [
+            15.0,
+            12.0
+          ]
+        ]
+      },
+      "source_crop": "images/b-0116-fig31.png",
+      "vector_outputs": [
+        "images/recreated/b-0116-fig31.pdf",
+        "images/recreated/b-0116-fig31.svg"
+      ],
+      "text_outside_canvas": [],
+      "category": "calculated-and-digitized",
+      "verification": {
+        "one_pdf_page": true,
+        "raster_objects": 0,
+        "aspect_relative_error": 0.0,
+        "text_outside_canvas": []
+      }
+    },
+    {
+      "asset": "b-0117-fig32",
+      "figure": 32,
+      "method": "mixed: formula and manually digitized experiment",
+      "description": "Finite cone deformed into a disk at fixed base radius.",
+      "equations": [
+        "17.08",
+        "17.09",
+        "17.10"
+      ],
+      "details": {
+        "ka": "2.75*pi",
+        "k": "pi",
+        "a": 2.75,
+        "Omega_degrees": 90,
+        "l": "a*cot(omega)",
+        "experimental_points_omega_deg_dB": [
+          [
+            10,
+            11.8
+          ],
+          [
+            20,
+            12.1
+          ],
+          [
+            30,
+            13.9
+          ],
+          [
+            35,
+            14.4
+          ],
+          [
+            45,
+            16.3
+          ],
+          [
+            55,
+            17.0
+          ],
+          [
+            60,
+            19.0
+          ],
+          [
+            70,
+            21.7
+          ],
+          [
+            80,
+            27.5
+          ]
+        ]
+      },
+      "source_crop": "images/b-0117-fig32.png",
+      "vector_outputs": [
+        "images/recreated/b-0117-fig32.pdf",
+        "images/recreated/b-0117-fig32.svg"
+      ],
+      "text_outside_canvas": [],
+      "category": "calculated-and-digitized",
+      "verification": {
+        "one_pdf_page": true,
+        "raster_objects": 0,
+        "aspect_relative_error": 6.494804694057166e-14,
+        "text_outside_canvas": []
+      }
+    },
+    {
+      "asset": "b-0117-fig33",
+      "figure": 33,
+      "method": "formula",
+      "description": "Cone scattering versus shape of the shadowed face.",
+      "equations": [
+        "17.08",
+        "17.09",
+        "17.04"
+      ],
+      "details": {
+        "omega_degrees": 10,
+        "kl": "10*pi",
+        "k": "pi",
+        "Omega_range_degrees": [
+          0,
+          170
+        ],
+        "upper_axis": "n=1+(omega+Omega)/pi"
+      },
+      "source_crop": "images/b-0117-fig33.png",
+      "vector_outputs": [
+        "images/recreated/b-0117-fig33.pdf",
+        "images/recreated/b-0117-fig33.svg"
+      ],
+      "text_outside_canvas": [],
+      "category": "calculated",
+      "verification": {
+        "one_pdf_page": true,
+        "raster_objects": 0,
+        "aspect_relative_error": 3.907985046680551e-14,
+        "text_outside_canvas": []
+      }
+    },
+    {
+      "asset": "b-0118-fig34",
+      "figure": 34,
+      "method": "vector schematic",
+      "description": "Composite conical generatrix with two axial intervals, radii and discontinuity angles.",
+      "equations": [],
+      "details": {
+        "construction": "Independently redrawn paths, dimension arrows, angle arcs and editable labels from the source figure."
+      },
+      "source_crop": "images/b-0118-fig34.png",
+      "vector_outputs": [
+        "images/recreated/b-0118-fig34.pdf",
+        "images/recreated/b-0118-fig34.svg"
+      ],
+      "text_outside_canvas": [],
+      "category": "geometric-redraw",
+      "verification": {
+        "one_pdf_page": true,
+        "raster_objects": 0,
+        "aspect_relative_error": 1.6719958750854857e-13,
+        "text_outside_canvas": []
+      }
+    },
+    {
+      "asset": "b-0118-fig35",
+      "figure": 35,
+      "method": "vector schematic",
+      "description": "Truncated conical surface and its two radii and axial intervals.",
+      "equations": [],
+      "details": {
+        "construction": "Independently redrawn paths, dimension arrows, angle arcs and editable labels from the source figure."
+      },
+      "source_crop": "images/b-0118-fig35.png",
+      "vector_outputs": [
+        "images/recreated/b-0118-fig35.pdf",
+        "images/recreated/b-0118-fig35.svg"
+      ],
+      "text_outside_canvas": [],
+      "category": "geometric-redraw",
+      "verification": {
+        "one_pdf_page": true,
+        "raster_objects": 0,
+        "aspect_relative_error": 1.751931932858497e-13,
+        "text_outside_canvas": []
+      }
+    },
+    {
+      "asset": "b-0121-fig36",
+      "figure": 36,
+      "method": "vector schematic",
+      "description": "Paraboloid illuminated along its symmetry axis, including rim angles and dimensions.",
+      "equations": [],
+      "details": {
+        "construction": "Independently redrawn paths, dimension arrows, angle arcs and editable labels from the source figure."
+      },
+      "source_crop": "images/b-0121-fig36.png",
+      "vector_outputs": [
+        "images/recreated/b-0121-fig36.pdf",
+        "images/recreated/b-0121-fig36.svg"
+      ],
+      "text_outside_canvas": [],
+      "category": "geometric-redraw",
+      "verification": {
+        "one_pdf_page": true,
+        "raster_objects": 0,
+        "aspect_relative_error": 0.0,
+        "text_outside_canvas": []
+      }
+    },
+    {
+      "asset": "b-0122-fig37",
+      "figure": 37,
+      "method": "formula",
+      "description": "Paraboloid scattering versus length with fixed rim angle.",
+      "equations": [
+        "18.04",
+        "18.06"
+      ],
+      "details": {
+        "k": "pi",
+        "Omega_degrees": 90,
+        "tan(omega)": 0.1,
+        "a": "0.2*l"
+      },
+      "source_crop": "images/b-0122-fig37.png",
+      "vector_outputs": [
+        "images/recreated/b-0122-fig37.pdf",
+        "images/recreated/b-0122-fig37.svg"
+      ],
+      "text_outside_canvas": [],
+      "category": "calculated",
+      "verification": {
+        "one_pdf_page": true,
+        "raster_objects": 0,
+        "aspect_relative_error": 0.0,
+        "text_outside_canvas": []
+      }
+    },
+    {
+      "asset": "b-0123-fig38",
+      "figure": 38,
+      "method": "formula",
+      "description": "Paraboloid of fixed base radius, varying height and rim angle.",
+      "equations": [
+        "18.04",
+        "18.06",
+        "18.05"
+      ],
+      "details": {
+        "k": "pi",
+        "a": 3,
+        "Omega_degrees": 90,
+        "omega": "atan(a/(2*l))"
+      },
+      "source_crop": "images/b-0123-fig38.png",
+      "vector_outputs": [
+        "images/recreated/b-0123-fig38.pdf",
+        "images/recreated/b-0123-fig38.svg"
+      ],
+      "text_outside_canvas": [],
+      "category": "calculated",
+      "verification": {
+        "one_pdf_page": true,
+        "raster_objects": 0,
+        "aspect_relative_error": 6.639133687258436e-14,
+        "text_outside_canvas": []
+      }
+    },
+    {
+      "asset": "b-0124-fig39",
+      "figure": 39,
+      "method": "formula",
+      "description": "Paraboloid scattering versus the shadowed-face angle.",
+      "equations": [
+        "18.04"
+      ],
+      "details": {
+        "ka": "2*pi",
+        "kl": "10*pi",
+        "tan(omega)": 0.1,
+        "k": "pi"
+      },
+      "source_crop": "images/b-0124-fig39.png",
+      "vector_outputs": [
+        "images/recreated/b-0124-fig39.pdf",
+        "images/recreated/b-0124-fig39.svg"
+      ],
+      "text_outside_canvas": [],
+      "category": "calculated",
+      "verification": {
+        "one_pdf_page": true,
+        "raster_objects": 0,
+        "aspect_relative_error": 0.0,
+        "text_outside_canvas": []
+      }
+    },
+    {
+      "asset": "b-0125-fig40",
+      "figure": 40,
+      "method": "vector schematic",
+      "description": "Truncated paraboloid generatrix: radii, tangents and axial lengths.",
+      "equations": [],
+      "details": {
+        "construction": "Independently redrawn paths, dimension arrows, angle arcs and editable labels from the source figure."
+      },
+      "source_crop": "images/b-0125-fig40.png",
+      "vector_outputs": [
+        "images/recreated/b-0125-fig40.pdf",
+        "images/recreated/b-0125-fig40.svg"
+      ],
+      "text_outside_canvas": [],
+      "category": "geometric-redraw",
+      "verification": {
+        "one_pdf_page": true,
+        "raster_objects": 0,
+        "aspect_relative_error": 9.126033262418787e-14,
+        "text_outside_canvas": []
+      }
+    },
+    {
+      "asset": "b-0126-fig41",
+      "figure": 41,
+      "method": "vector schematic",
+      "description": "Spherical ring between two cutting planes, tangents, normal radius and axial dimensions.",
+      "equations": [],
+      "details": {
+        "construction": "Independently redrawn paths, dimension arrows, angle arcs and editable labels from the source figure."
+      },
+      "source_crop": "images/b-0126-fig41.png",
+      "vector_outputs": [
+        "images/recreated/b-0126-fig41.pdf",
+        "images/recreated/b-0126-fig41.svg"
+      ],
+      "text_outside_canvas": [],
+      "category": "geometric-redraw",
+      "verification": {
+        "one_pdf_page": true,
+        "raster_objects": 0,
+        "aspect_relative_error": 7.72715225139109e-14,
+        "text_outside_canvas": []
+      }
+    },
+    {
+      "asset": "b-0126-fig42",
+      "figure": 42,
+      "method": "vector schematic",
+      "description": "Spherical segment with conical base, rim radius, length and two edge angles.",
+      "equations": [],
+      "details": {
+        "construction": "Independently redrawn paths, dimension arrows, angle arcs and editable labels from the source figure."
+      },
+      "source_crop": "images/b-0126-fig42.png",
+      "vector_outputs": [
+        "images/recreated/b-0126-fig42.pdf",
+        "images/recreated/b-0126-fig42.svg"
+      ],
+      "text_outside_canvas": [],
+      "category": "geometric-redraw",
+      "verification": {
+        "one_pdf_page": true,
+        "raster_objects": 0,
+        "aspect_relative_error": 6.616929226765933e-14,
+        "text_outside_canvas": []
+      }
+    },
+    {
+      "asset": "b-0128-fig43",
+      "figure": 43,
+      "method": "formula",
+      "description": "Spherical segment scattering at fixed base radius.",
+      "equations": [
+        "19.12",
+        "19.13"
+      ],
+      "details": {
+        "a": 2.75,
+        "ka": "2.75*pi",
+        "k": "pi",
+        "Omega_degrees": 15,
+        "omega": "pi/2-2*atan(l/a)"
+      },
+      "source_crop": "images/b-0128-fig43.png",
+      "vector_outputs": [
+        "images/recreated/b-0128-fig43.pdf",
+        "images/recreated/b-0128-fig43.svg"
+      ],
+      "text_outside_canvas": [],
+      "category": "calculated",
+      "verification": {
+        "one_pdf_page": true,
+        "raster_objects": 0,
+        "aspect_relative_error": 7.471800955727304e-14,
+        "text_outside_canvas": []
+      }
+    },
+    {
+      "asset": "b-0128-fig44",
+      "figure": 44,
+      "method": "formula",
+      "description": "Spherical-segment and cone scattering for the same base dimensions and shadow angle.",
+      "equations": [
+        "19.12",
+        "17.08"
+      ],
+      "details": {
+        "a": 2.75,
+        "ka": "2.75*pi",
+        "k": "pi",
+        "Omega_degrees": 15,
+        "solid": "spherical segment",
+        "dashed": "cone"
+      },
+      "source_crop": "images/b-0128-fig44.png",
+      "vector_outputs": [
+        "images/recreated/b-0128-fig44.pdf",
+        "images/recreated/b-0128-fig44.svg"
+      ],
+      "text_outside_canvas": [],
+      "category": "calculated",
+      "verification": {
+        "one_pdf_page": true,
+        "raster_objects": 0,
+        "aspect_relative_error": 1.099120794378905e-13,
+        "text_outside_canvas": []
+      }
+    },
+    {
+      "asset": "b-0133-fig45",
+      "figure": 45,
+      "method": "vector schematic",
+      "description": "Strip cross-section, incident normal and observation direction.",
+      "equations": [],
+      "details": {
+        "construction": "Independently redrawn paths, dimension arrows, angle arcs and editable labels from the source figure."
+      },
+      "source_crop": "images/b-0133-fig45.png",
+      "vector_outputs": [
+        "images/recreated/b-0133-fig45.pdf",
+        "images/recreated/b-0133-fig45.svg"
+      ],
+      "text_outside_canvas": [],
+      "category": "geometric-redraw",
+      "verification": {
+        "one_pdf_page": true,
+        "raster_objects": 0,
+        "aspect_relative_error": 3.4638958368304884e-14,
+        "text_outside_canvas": []
+      }
+    },
+    {
+      "asset": "b-0135-fig46",
+      "figure": 46,
+      "method": "vector schematic",
+      "description": "Diffraction by a half-plane: source, image source, observer, four propagation distances and local angles.",
+      "equations": [],
+      "details": {
+        "construction": "Independently redrawn paths, dimension arrows, angle arcs and editable labels from the source figure."
+      },
+      "source_crop": "images/b-0135-fig46.png",
+      "vector_outputs": [
+        "images/recreated/b-0135-fig46.pdf",
+        "images/recreated/b-0135-fig46.svg"
+      ],
+      "text_outside_canvas": [],
+      "category": "geometric-redraw",
+      "verification": {
+        "one_pdf_page": true,
+        "raster_objects": 0,
+        "aspect_relative_error": 0.0,
+        "text_outside_canvas": []
+      }
+    },
+    {
+      "asset": "c-0138-fig",
+      "figure": 47,
+      "method": "geometry",
+      "description": "Independent vector reconstruction of the original scientific diagram.",
+      "equations": [],
+      "details": {
+        "source": "Original scanned figure, geometry and labels redrawn independently; no raster embedded."
+      },
+      "source_crop": "images/c-0138-fig.png",
+      "vector_outputs": [
+        "images/recreated/c-0138-fig.pdf",
+        "images/recreated/c-0138-fig.svg"
+      ],
+      "text_outside_canvas": [],
+      "category": "geometric-redraw",
+      "verification": {
+        "one_pdf_page": true,
+        "raster_objects": 0,
+        "aspect_relative_error": 2.1538326677728037e-14,
+        "text_outside_canvas": []
+      }
+    },
+    {
+      "asset": "c-0150-fig",
+      "figure": 48,
+      "method": "geometry",
+      "description": "Independent vector reconstruction of the original scientific diagram.",
+      "equations": [],
+      "details": {
+        "source": "Original scanned figure, geometry and labels redrawn independently; no raster embedded."
+      },
+      "source_crop": "images/c-0150-fig.png",
+      "vector_outputs": [
+        "images/recreated/c-0150-fig.pdf",
+        "images/recreated/c-0150-fig.svg"
+      ],
+      "text_outside_canvas": [],
+      "category": "geometric-redraw",
+      "verification": {
+        "one_pdf_page": true,
+        "raster_objects": 0,
+        "aspect_relative_error": 0.0,
+        "text_outside_canvas": []
+      }
+    },
+    {
+      "asset": "c-0153-fig49",
+      "figure": 49,
+      "method": "mixed",
+      "description": "Strip scattering magnitudes, with independently redrawn axes and comparison curves.",
+      "equations": [
+        "20.04",
+        "20.05",
+        "21.22",
+        "21.23",
+        "22.13",
+        "23.02",
+        "23.10",
+        "23.13",
+        "23.14",
+        "23.15"
+      ],
+      "details": {
+        "ka": 5.291502622129181,
+        "alpha_degrees": 0.0,
+        "backscatter": false,
+        "drawn_computed_curves": [
+          "h0",
+          "h1",
+          "h2"
+        ],
+        "unsuffixed_curve": {
+          "label": "h",
+          "provenance": "Independently digitized published rigorous reference."
+        },
+        "rigorous_reference": {
+          "label": "h",
+          "control_points": [
+            [
+              -90,
+              0
+            ],
+            [
+              -80,
+              0.06
+            ],
+            [
+              -70,
+              0.13
+            ],
+            [
+              -60,
+              0.21
+            ],
+            [
+              -55,
+              0.23
+            ],
+            [
+              -50,
+              0.22
+            ],
+            [
+              -45,
+              0.17
+            ],
+            [
+              -40,
+              0.1
+            ],
+            [
+              -35,
+              0.045
+            ],
+            [
+              -30,
+              0.14
+            ],
+            [
+              -25,
+              0.34
+            ],
+            [
+              -20,
+              0.56
+            ],
+            [
+              -15,
+              0.77
+            ],
+            [
+              -10,
+              0.93
+            ],
+            [
+              -5,
+              1.03
+            ],
+            [
+              0,
+              1.055
+            ],
+            [
+              5,
+              1.03
+            ],
+            [
+              10,
+              0.93
+            ],
+            [
+              15,
+              0.77
+            ],
+            [
+              20,
+              0.56
+            ],
+            [
+              25,
+              0.34
+            ],
+            [
+              30,
+              0.14
+            ],
+            [
+              35,
+              0.045
+            ],
+            [
+              40,
+              0.1
+            ],
+            [
+              45,
+              0.17
+            ],
+            [
+              50,
+              0.22
+            ],
+            [
+              55,
+              0.23
+            ],
+            [
+              60,
+              0.21
+            ],
+            [
+              70,
+              0.13
+            ],
+            [
+              80,
+              0.06
+            ],
+            [
+              90,
+              0
+            ]
+          ],
+          "interpolation": "PCHIP",
+          "qualification": "Manual grid reading of published rigorous reference; approximate digitization, not a new rigorous solver."
+        },
+        "endpoint_evaluation": "One-sided numerical angular limit, 2e-6 radians; removable forward singularity evaluated at1e-6 radians."
+      },
+      "source_crop": "images/c-0153-fig49.png",
+      "vector_outputs": [
+        "images/recreated/c-0153-fig49.pdf",
+        "images/recreated/c-0153-fig49.svg"
+      ],
+      "text_outside_canvas": [],
+      "category": "calculated-and-digitized",
+      "verification": {
+        "one_pdf_page": true,
+        "raster_objects": 0,
+        "aspect_relative_error": 0.0,
+        "text_outside_canvas": []
+      }
+    },
+    {
+      "asset": "c-0153-fig50",
+      "figure": 50,
+      "method": "mixed",
+      "description": "Strip scattering magnitudes, with independently redrawn axes and comparison curves.",
+      "equations": [
+        "20.04",
+        "20.05",
+        "21.22",
+        "21.23",
+        "22.13",
+        "23.02",
+        "23.10",
+        "23.13",
+        "23.14",
+        "23.15"
+      ],
+      "details": {
+        "ka": 5.291502622129181,
+        "alpha_degrees": -45.0,
+        "backscatter": false,
+        "drawn_computed_curves": [
+          "h0",
+          "h1",
+          "h2"
+        ],
+        "unsuffixed_curve": {
+          "label": "h",
+          "provenance": "Independently digitized published rigorous reference."
+        },
+        "rigorous_reference": {
+          "label": "h",
+          "control_points": [
+            [
+              -90,
+              0
+            ],
+            [
+              -80,
+              0.12
+            ],
+            [
+              -70,
+              0.3
+            ],
+            [
+              -60,
+              0.51
+            ],
+            [
+              -55,
+              0.62
+            ],
+            [
+              -50,
+              0.7
+            ],
+            [
+              -45,
+              0.75
+            ],
+            [
+              -40,
+              0.75
+            ],
+            [
+              -35,
+              0.68
+            ],
+            [
+              -30,
+              0.55
+            ],
+            [
+              -25,
+              0.38
+            ],
+            [
+              -20,
+              0.22
+            ],
+            [
+              -15,
+              0.1
+            ],
+            [
+              -11,
+              0.09
+            ],
+            [
+              -5,
+              0.17
+            ],
+            [
+              2,
+              0.23
+            ],
+            [
+              10,
+              0.2
+            ],
+            [
+              20,
+              0.1
+            ],
+            [
+              28,
+              0.08
+            ],
+            [
+              35,
+              0.13
+            ],
+            [
+              45,
+              0.18
+            ],
+            [
+              55,
+              0.17
+            ],
+            [
+              65,
+              0.13
+            ],
+            [
+              75,
+              0.08
+            ],
+            [
+              85,
+              0.025
+            ],
+            [
+              90,
+              0
+            ]
+          ],
+          "interpolation": "PCHIP",
+          "qualification": "Manual grid reading of published rigorous reference; approximate digitization, not a new rigorous solver."
+        },
+        "endpoint_evaluation": "One-sided numerical angular limit, 2e-6 radians; removable forward singularity evaluated at1e-6 radians."
+      },
+      "source_crop": "images/c-0153-fig50.png",
+      "vector_outputs": [
+        "images/recreated/c-0153-fig50.pdf",
+        "images/recreated/c-0153-fig50.svg"
+      ],
+      "text_outside_canvas": [],
+      "category": "calculated-and-digitized",
+      "verification": {
+        "one_pdf_page": true,
+        "raster_objects": 0,
+        "aspect_relative_error": 0.0,
+        "text_outside_canvas": []
+      }
+    },
+    {
+      "asset": "c-0154-fig51",
+      "figure": 51,
+      "method": "mixed",
+      "description": "Strip scattering magnitudes, with independently redrawn axes and comparison curves.",
+      "equations": [
+        "20.04",
+        "20.05",
+        "21.22",
+        "21.23",
+        "22.13",
+        "23.02",
+        "23.10",
+        "23.13",
+        "23.14",
+        "23.15"
+      ],
+      "details": {
+        "ka": 5.291502622129181,
+        "alpha_degrees": null,
+        "backscatter": true,
+        "drawn_computed_curves": [
+          "h2"
+        ],
+        "unsuffixed_curve": {
+          "label": "h",
+          "provenance": "Independently digitized published rigorous reference."
+        },
+        "rigorous_reference": {
+          "label": "h",
+          "control_points": [
+            [
+              0,
+              1.03
+            ],
+            [
+              5,
+              0.91
+            ],
+            [
+              10,
+              0.62
+            ],
+            [
+              15,
+              0.31
+            ],
+            [
+              20,
+              0.11
+            ],
+            [
+              25,
+              0.17
+            ],
+            [
+              30,
+              0.12
+            ],
+            [
+              35,
+              0.075
+            ],
+            [
+              40,
+              0.115
+            ],
+            [
+              45,
+              0.16
+            ],
+            [
+              50,
+              0.19
+            ],
+            [
+              55,
+              0.18
+            ],
+            [
+              60,
+              0.15
+            ],
+            [
+              65,
+              0.11
+            ],
+            [
+              70,
+              0.065
+            ],
+            [
+              80,
+              0.012
+            ],
+            [
+              90,
+              0
+            ]
+          ],
+          "interpolation": "PCHIP",
+          "qualification": "Manual grid reading of published rigorous reference; approximate digitization, not a new rigorous solver."
+        },
+        "endpoint_evaluation": "One-sided numerical angular limit, 2e-6 radians; removable forward singularity evaluated at1e-6 radians."
+      },
+      "source_crop": "images/c-0154-fig51.png",
+      "vector_outputs": [
+        "images/recreated/c-0154-fig51.pdf",
+        "images/recreated/c-0154-fig51.svg"
+      ],
+      "text_outside_canvas": [],
+      "category": "calculated-and-digitized",
+      "verification": {
+        "one_pdf_page": true,
+        "raster_objects": 0,
+        "aspect_relative_error": 1.346700528870315e-13,
+        "text_outside_canvas": []
+      }
+    },
+    {
+      "asset": "c-0155-fig52",
+      "figure": 52,
+      "method": "mixed",
+      "description": "Strip scattering magnitudes, with independently redrawn axes and comparison curves.",
+      "equations": [
+        "20.04",
+        "20.05",
+        "21.22",
+        "21.23",
+        "22.13",
+        "23.02",
+        "23.10",
+        "23.13",
+        "23.14",
+        "23.15"
+      ],
+      "details": {
+        "ka": 8.94427190999916,
+        "alpha_degrees": 0.0,
+        "backscatter": false,
+        "drawn_computed_curves": [
+          "h0",
+          "h1",
+          "h2"
+        ],
+        "unsuffixed_curve": {
+          "label": "h",
+          "provenance": "Independently digitized published rigorous reference."
+        },
+        "rigorous_reference": {
+          "label": "h",
+          "control_points": [
+            [
+              -90,
+              0
+            ],
+            [
+              -80,
+              0.035
+            ],
+            [
+              -70,
+              0.08
+            ],
+            [
+              -60,
+              0.12
+            ],
+            [
+              -55,
+              0.13
+            ],
+            [
+              -50,
+              0.09
+            ],
+            [
+              -45,
+              0.025
+            ],
+            [
+              -40,
+              0.065
+            ],
+            [
+              -35,
+              0.15
+            ],
+            [
+              -30,
+              0.2
+            ],
+            [
+              -25,
+              0.13
+            ],
+            [
+              -21,
+              0.015
+            ],
+            [
+              -15,
+              0.35
+            ],
+            [
+              -10,
+              0.7
+            ],
+            [
+              -5,
+              0.92
+            ],
+            [
+              0,
+              1.0
+            ],
+            [
+              5,
+              0.92
+            ],
+            [
+              10,
+              0.7
+            ],
+            [
+              15,
+              0.35
+            ],
+            [
+              21,
+              0.015
+            ],
+            [
+              25,
+              0.13
+            ],
+            [
+              30,
+              0.2
+            ],
+            [
+              35,
+              0.15
+            ],
+            [
+              40,
+              0.065
+            ],
+            [
+              45,
+              0.025
+            ],
+            [
+              50,
+              0.09
+            ],
+            [
+              55,
+              0.13
+            ],
+            [
+              60,
+              0.12
+            ],
+            [
+              70,
+              0.08
+            ],
+            [
+              80,
+              0.035
+            ],
+            [
+              90,
+              0
+            ]
+          ],
+          "interpolation": "PCHIP",
+          "qualification": "Manual grid reading of published rigorous reference; approximate digitization, not a new rigorous solver."
+        },
+        "endpoint_evaluation": "One-sided numerical angular limit, 2e-6 radians; removable forward singularity evaluated at1e-6 radians."
+      },
+      "source_crop": "images/c-0155-fig52.png",
+      "vector_outputs": [
+        "images/recreated/c-0155-fig52.pdf",
+        "images/recreated/c-0155-fig52.svg"
+      ],
+      "text_outside_canvas": [],
+      "category": "calculated-and-digitized",
+      "verification": {
+        "one_pdf_page": true,
+        "raster_objects": 0,
+        "aspect_relative_error": 2.1505019986989282e-13,
+        "text_outside_canvas": []
+      }
+    },
+    {
+      "asset": "c-0155-fig53",
+      "figure": 53,
+      "method": "mixed",
+      "description": "Strip scattering magnitudes, with independently redrawn axes and comparison curves.",
+      "equations": [
+        "20.04",
+        "20.05",
+        "21.22",
+        "21.23",
+        "22.13",
+        "23.02",
+        "23.10",
+        "23.13",
+        "23.14",
+        "23.15"
+      ],
+      "details": {
+        "ka": 8.94427190999916,
+        "alpha_degrees": -45.0,
+        "backscatter": false,
+        "drawn_computed_curves": [
+          "h0",
+          "h1",
+          "h2"
+        ],
+        "unsuffixed_curve": {
+          "label": "h",
+          "provenance": "Independently digitized published rigorous reference."
+        },
+        "rigorous_reference": {
+          "label": "h",
+          "control_points": [
+            [
+              -90,
+              0
+            ],
+            [
+              -80,
+              0.09
+            ],
+            [
+              -70,
+              0.27
+            ],
+            [
+              -60,
+              0.49
+            ],
+            [
+              -55,
+              0.6
+            ],
+            [
+              -50,
+              0.7
+            ],
+            [
+              -45,
+              0.75
+            ],
+            [
+              -40,
+              0.69
+            ],
+            [
+              -35,
+              0.51
+            ],
+            [
+              -30,
+              0.28
+            ],
+            [
+              -25,
+              0.09
+            ],
+            [
+              -21,
+              0.05
+            ],
+            [
+              -15,
+              0.16
+            ],
+            [
+              -10,
+              0.17
+            ],
+            [
+              -5,
+              0.11
+            ],
+            [
+              0,
+              0.025
+            ],
+            [
+              5,
+              0.09
+            ],
+            [
+              10,
+              0.12
+            ],
+            [
+              15,
+              0.1
+            ],
+            [
+              20,
+              0.05
+            ],
+            [
+              24,
+              0.015
+            ],
+            [
+              30,
+              0.06
+            ],
+            [
+              35,
+              0.065
+            ],
+            [
+              40,
+              0.055
+            ],
+            [
+              45,
+              0.025
+            ],
+            [
+              50,
+              0.012
+            ],
+            [
+              60,
+              0.035
+            ],
+            [
+              70,
+              0.03
+            ],
+            [
+              80,
+              0.018
+            ],
+            [
+              90,
+              0
+            ]
+          ],
+          "interpolation": "PCHIP",
+          "qualification": "Manual grid reading of published rigorous reference; approximate digitization, not a new rigorous solver."
+        },
+        "endpoint_evaluation": "One-sided numerical angular limit, 2e-6 radians; removable forward singularity evaluated at1e-6 radians."
+      },
+      "source_crop": "images/c-0155-fig53.png",
+      "vector_outputs": [
+        "images/recreated/c-0155-fig53.pdf",
+        "images/recreated/c-0155-fig53.svg"
+      ],
+      "text_outside_canvas": [],
+      "category": "calculated-and-digitized",
+      "verification": {
+        "one_pdf_page": true,
+        "raster_objects": 0,
+        "aspect_relative_error": 0.0,
+        "text_outside_canvas": []
+      }
+    },
+    {
+      "asset": "c-0156-fig54",
+      "figure": 54,
+      "method": "mixed",
+      "description": "Strip scattering magnitudes, with independently redrawn axes and comparison curves.",
+      "equations": [
+        "20.04",
+        "20.05",
+        "21.22",
+        "21.23",
+        "22.13",
+        "23.02",
+        "23.10",
+        "23.13",
+        "23.14",
+        "23.15"
+      ],
+      "details": {
+        "ka": 8.94427190999916,
+        "alpha_degrees": null,
+        "backscatter": true,
+        "drawn_computed_curves": [
+          "h2"
+        ],
+        "unsuffixed_curve": {
+          "label": "h",
+          "provenance": "Independently digitized published rigorous reference."
+        },
+        "rigorous_reference": {
+          "label": "h",
+          "control_points": [
+            [
+              0,
+              1.0
+            ],
+            [
+              3,
+              0.92
+            ],
+            [
+              6,
+              0.68
+            ],
+            [
+              9,
+              0.36
+            ],
+            [
+              12,
+              0.08
+            ],
+            [
+              15,
+              0.23
+            ],
+            [
+              18,
+              0.15
+            ],
+            [
+              21,
+              0.06
+            ],
+            [
+              25,
+              0.13
+            ],
+            [
+              30,
+              0.09
+            ],
+            [
+              35,
+              0.07
+            ],
+            [
+              40,
+              0.03
+            ],
+            [
+              44,
+              0.025
+            ],
+            [
+              50,
+              0.06
+            ],
+            [
+              56,
+              0.08
+            ],
+            [
+              62,
+              0.07
+            ],
+            [
+              70,
+              0.04
+            ],
+            [
+              80,
+              0.008
+            ],
+            [
+              90,
+              0
+            ]
+          ],
+          "interpolation": "PCHIP",
+          "qualification": "Manual grid reading of published rigorous reference; approximate digitization, not a new rigorous solver."
+        },
+        "endpoint_evaluation": "One-sided numerical angular limit, 2e-6 radians; removable forward singularity evaluated at1e-6 radians."
+      },
+      "source_crop": "images/c-0156-fig54.png",
+      "vector_outputs": [
+        "images/recreated/c-0156-fig54.pdf",
+        "images/recreated/c-0156-fig54.svg"
+      ],
+      "text_outside_canvas": [],
+      "category": "calculated-and-digitized",
+      "verification": {
+        "one_pdf_page": true,
+        "raster_objects": 0,
+        "aspect_relative_error": 3.086420008457935e-14,
+        "text_outside_canvas": []
+      }
+    },
+    {
+      "asset": "c-0157-fig55",
+      "figure": 55,
+      "method": "mixed",
+      "description": "Strip scattering magnitudes, with independently redrawn axes and comparison curves.",
+      "equations": [
+        "20.04",
+        "20.05",
+        "21.22",
+        "21.23",
+        "22.13",
+        "23.02",
+        "23.10",
+        "23.13",
+        "23.14",
+        "23.15"
+      ],
+      "details": {
+        "ka": 5.291502622129181,
+        "alpha_degrees": 0.0,
+        "backscatter": false,
+        "drawn_computed_curves": [
+          "e0",
+          "e1"
+        ],
+        "unsuffixed_curve": {
+          "label": "e",
+          "provenance": "Independently digitized published rigorous reference."
+        },
+        "rigorous_reference": {
+          "label": "e",
+          "control_points": [
+            [
+              -90,
+              0.09
+            ],
+            [
+              -80,
+              0.115
+            ],
+            [
+              -70,
+              0.145
+            ],
+            [
+              -60,
+              0.185
+            ],
+            [
+              -55,
+              0.195
+            ],
+            [
+              -50,
+              0.19
+            ],
+            [
+              -45,
+              0.17
+            ],
+            [
+              -40,
+              0.13
+            ],
+            [
+              -35,
+              0.115
+            ],
+            [
+              -30,
+              0.21
+            ],
+            [
+              -25,
+              0.39
+            ],
+            [
+              -20,
+              0.6
+            ],
+            [
+              -15,
+              0.78
+            ],
+            [
+              -10,
+              0.91
+            ],
+            [
+              -5,
+              0.98
+            ],
+            [
+              0,
+              1.0
+            ],
+            [
+              5,
+              0.98
+            ],
+            [
+              10,
+              0.91
+            ],
+            [
+              15,
+              0.78
+            ],
+            [
+              20,
+              0.6
+            ],
+            [
+              25,
+              0.39
+            ],
+            [
+              30,
+              0.21
+            ],
+            [
+              35,
+              0.115
+            ],
+            [
+              40,
+              0.13
+            ],
+            [
+              45,
+              0.17
+            ],
+            [
+              50,
+              0.19
+            ],
+            [
+              55,
+              0.195
+            ],
+            [
+              60,
+              0.185
+            ],
+            [
+              70,
+              0.145
+            ],
+            [
+              80,
+              0.115
+            ],
+            [
+              90,
+              0.09
+            ]
+          ],
+          "interpolation": "PCHIP",
+          "qualification": "Manual grid reading of published rigorous reference; approximate digitization, not a new rigorous solver."
+        },
+        "endpoint_evaluation": "One-sided numerical angular limit, 2e-6 radians; removable forward singularity evaluated at1e-6 radians."
+      },
+      "source_crop": "images/c-0157-fig55.png",
+      "vector_outputs": [
+        "images/recreated/c-0157-fig55.pdf",
+        "images/recreated/c-0157-fig55.svg"
+      ],
+      "text_outside_canvas": [],
+      "category": "calculated-and-digitized",
+      "verification": {
+        "one_pdf_page": true,
+        "raster_objects": 0,
+        "aspect_relative_error": 2.2937207688755734e-13,
+        "text_outside_canvas": []
+      }
+    },
+    {
+      "asset": "c-0157-fig56",
+      "figure": 56,
+      "method": "mixed",
+      "description": "Strip scattering magnitudes, with independently redrawn axes and comparison curves.",
+      "equations": [
+        "20.04",
+        "20.05",
+        "21.22",
+        "21.23",
+        "22.13",
+        "23.02",
+        "23.10",
+        "23.13",
+        "23.14",
+        "23.15"
+      ],
+      "details": {
+        "ka": 5.291502622129181,
+        "alpha_degrees": -45.0,
+        "backscatter": false,
+        "drawn_computed_curves": [
+          "e0",
+          "e1"
+        ],
+        "unsuffixed_curve": {
+          "label": "e",
+          "provenance": "Independently digitized published rigorous reference."
+        },
+        "rigorous_reference": {
+          "label": "e",
+          "control_points": [
+            [
+              -90,
+              0.25
+            ],
+            [
+              -80,
+              0.3
+            ],
+            [
+              -70,
+              0.4
+            ],
+            [
+              -60,
+              0.52
+            ],
+            [
+              -55,
+              0.61
+            ],
+            [
+              -50,
+              0.69
+            ],
+            [
+              -45,
+              0.74
+            ],
+            [
+              -40,
+              0.73
+            ],
+            [
+              -35,
+              0.66
+            ],
+            [
+              -30,
+              0.52
+            ],
+            [
+              -25,
+              0.34
+            ],
+            [
+              -20,
+              0.17
+            ],
+            [
+              -15,
+              0.11
+            ],
+            [
+              -10,
+              0.12
+            ],
+            [
+              -5,
+              0.16
+            ],
+            [
+              2,
+              0.2
+            ],
+            [
+              10,
+              0.17
+            ],
+            [
+              20,
+              0.105
+            ],
+            [
+              30,
+              0.1
+            ],
+            [
+              40,
+              0.14
+            ],
+            [
+              50,
+              0.14
+            ],
+            [
+              60,
+              0.12
+            ],
+            [
+              75,
+              0.085
+            ],
+            [
+              90,
+              0.055
+            ]
+          ],
+          "interpolation": "PCHIP",
+          "qualification": "Manual grid reading of published rigorous reference; approximate digitization, not a new rigorous solver."
+        },
+        "endpoint_evaluation": "One-sided numerical angular limit, 2e-6 radians; removable forward singularity evaluated at1e-6 radians."
+      },
+      "source_crop": "images/c-0157-fig56.png",
+      "vector_outputs": [
+        "images/recreated/c-0157-fig56.pdf",
+        "images/recreated/c-0157-fig56.svg"
+      ],
+      "text_outside_canvas": [],
+      "category": "calculated-and-digitized",
+      "verification": {
+        "one_pdf_page": true,
+        "raster_objects": 0,
+        "aspect_relative_error": 2.728928194528635e-13,
+        "text_outside_canvas": []
+      }
+    },
+    {
+      "asset": "c-0158-fig57",
+      "figure": 57,
+      "method": "formula",
+      "description": "Strip scattering magnitudes, with independently redrawn axes and comparison curves.",
+      "equations": [
+        "20.04",
+        "20.05",
+        "21.22",
+        "21.23",
+        "22.13",
+        "23.02",
+        "23.10",
+        "23.13",
+        "23.14",
+        "23.15"
+      ],
+      "details": {
+        "ka": 5.291502622129181,
+        "alpha_degrees": -90.0,
+        "backscatter": false,
+        "drawn_computed_curves": [
+          "e2"
+        ],
+        "unsuffixed_curve": {
+          "label": "e",
+          "provenance": "Calculated secondary-diffraction approximation (subscript2), displayed under the original unsuffixed figure label. No new rigorous solution is claimed; the source reports close agreement."
+        },
+        "rigorous_reference": null,
+        "endpoint_evaluation": "One-sided numerical angular limit, 2e-6 radians; removable forward singularity evaluated at1e-6 radians."
+      },
+      "source_crop": "images/c-0158-fig57.png",
+      "vector_outputs": [
+        "images/recreated/c-0158-fig57.pdf",
+        "images/recreated/c-0158-fig57.svg"
+      ],
+      "text_outside_canvas": [],
+      "category": "calculated",
+      "verification": {
+        "one_pdf_page": true,
+        "raster_objects": 0,
+        "aspect_relative_error": 4.569677969357144e-13,
+        "text_outside_canvas": []
+      }
+    },
+    {
+      "asset": "c-0158-fig58",
+      "figure": 58,
+      "method": "formula",
+      "description": "Strip scattering magnitudes, with independently redrawn axes and comparison curves.",
+      "equations": [
+        "20.04",
+        "20.05",
+        "21.22",
+        "21.23",
+        "22.13",
+        "23.02",
+        "23.10",
+        "23.13",
+        "23.14",
+        "23.15"
+      ],
+      "details": {
+        "ka": 5.291502622129181,
+        "alpha_degrees": null,
+        "backscatter": true,
+        "drawn_computed_curves": [
+          "e2"
+        ],
+        "unsuffixed_curve": {
+          "label": "e",
+          "provenance": "Calculated secondary-diffraction approximation (subscript2), displayed under the original unsuffixed figure label. No new rigorous solution is claimed; the source reports close agreement."
+        },
+        "rigorous_reference": null,
+        "endpoint_evaluation": "One-sided numerical angular limit, 2e-6 radians; removable forward singularity evaluated at1e-6 radians."
+      },
+      "source_crop": "images/c-0158-fig58.png",
+      "vector_outputs": [
+        "images/recreated/c-0158-fig58.pdf",
+        "images/recreated/c-0158-fig58.svg"
+      ],
+      "text_outside_canvas": [],
+      "category": "calculated",
+      "verification": {
+        "one_pdf_page": true,
+        "raster_objects": 0,
+        "aspect_relative_error": 8.415490526658687e-14,
+        "text_outside_canvas": []
+      }
+    },
+    {
+      "asset": "c-0158-fig59",
+      "figure": 59,
+      "method": "mixed",
+      "description": "Strip scattering magnitudes, with independently redrawn axes and comparison curves.",
+      "equations": [
+        "20.04",
+        "20.05",
+        "21.22",
+        "21.23",
+        "22.13",
+        "23.02",
+        "23.10",
+        "23.13",
+        "23.14",
+        "23.15"
+      ],
+      "details": {
+        "ka": 8.94427190999916,
+        "alpha_degrees": 0.0,
+        "backscatter": false,
+        "drawn_computed_curves": [
+          "e0",
+          "e1"
+        ],
+        "unsuffixed_curve": {
+          "label": "e",
+          "provenance": "Independently digitized published rigorous reference."
+        },
+        "rigorous_reference": {
+          "label": "e",
+          "control_points": [
+            [
+              -90,
+              0.055
+            ],
+            [
+              -80,
+              0.06
+            ],
+            [
+              -70,
+              0.07
+            ],
+            [
+              -60,
+              0.1
+            ],
+            [
+              -55,
+              0.105
+            ],
+            [
+              -50,
+              0.08
+            ],
+            [
+              -45,
+              0.055
+            ],
+            [
+              -40,
+              0.075
+            ],
+            [
+              -35,
+              0.15
+            ],
+            [
+              -30,
+              0.21
+            ],
+            [
+              -25,
+              0.17
+            ],
+            [
+              -21,
+              0.07
+            ],
+            [
+              -15,
+              0.33
+            ],
+            [
+              -10,
+              0.65
+            ],
+            [
+              -5,
+              0.91
+            ],
+            [
+              0,
+              1.0
+            ],
+            [
+              5,
+              0.91
+            ],
+            [
+              10,
+              0.65
+            ],
+            [
+              15,
+              0.33
+            ],
+            [
+              21,
+              0.07
+            ],
+            [
+              25,
+              0.17
+            ],
+            [
+              30,
+              0.21
+            ],
+            [
+              35,
+              0.15
+            ],
+            [
+              40,
+              0.075
+            ],
+            [
+              45,
+              0.055
+            ],
+            [
+              50,
+              0.08
+            ],
+            [
+              55,
+              0.105
+            ],
+            [
+              60,
+              0.1
+            ],
+            [
+              70,
+              0.07
+            ],
+            [
+              80,
+              0.06
+            ],
+            [
+              90,
+              0.055
+            ]
+          ],
+          "interpolation": "PCHIP",
+          "qualification": "Manual grid reading of published rigorous reference; approximate digitization, not a new rigorous solver."
+        },
+        "endpoint_evaluation": "One-sided numerical angular limit, 2e-6 radians; removable forward singularity evaluated at1e-6 radians."
+      },
+      "source_crop": "images/c-0158-fig59.png",
+      "vector_outputs": [
+        "images/recreated/c-0158-fig59.pdf",
+        "images/recreated/c-0158-fig59.svg"
+      ],
+      "text_outside_canvas": [],
+      "category": "calculated-and-digitized",
+      "verification": {
+        "one_pdf_page": true,
+        "raster_objects": 0,
+        "aspect_relative_error": 0.0,
+        "text_outside_canvas": []
+      }
+    },
+    {
+      "asset": "c-0159-fig60",
+      "figure": 60,
+      "method": "mixed",
+      "description": "Strip scattering magnitudes, with independently redrawn axes and comparison curves.",
+      "equations": [
+        "20.04",
+        "20.05",
+        "21.22",
+        "21.23",
+        "22.13",
+        "23.02",
+        "23.10",
+        "23.13",
+        "23.14",
+        "23.15"
+      ],
+      "details": {
+        "ka": 8.94427190999916,
+        "alpha_degrees": -45.0,
+        "backscatter": false,
+        "drawn_computed_curves": [
+          "e0",
+          "e1"
+        ],
+        "unsuffixed_curve": {
+          "label": "e",
+          "provenance": "Independently digitized published rigorous reference."
+        },
+        "rigorous_reference": {
+          "label": "e",
+          "control_points": [
+            [
+              -90,
+              0.12
+            ],
+            [
+              -80,
+              0.14
+            ],
+            [
+              -70,
+              0.23
+            ],
+            [
+              -60,
+              0.43
+            ],
+            [
+              -55,
+              0.57
+            ],
+            [
+              -50,
+              0.68
+            ],
+            [
+              -45,
+              0.74
+            ],
+            [
+              -40,
+              0.72
+            ],
+            [
+              -35,
+              0.55
+            ],
+            [
+              -30,
+              0.31
+            ],
+            [
+              -25,
+              0.13
+            ],
+            [
+              -21,
+              0.09
+            ],
+            [
+              -15,
+              0.17
+            ],
+            [
+              -10,
+              0.2
+            ],
+            [
+              -5,
+              0.15
+            ],
+            [
+              0,
+              0.07
+            ],
+            [
+              5,
+              0.095
+            ],
+            [
+              10,
+              0.13
+            ],
+            [
+              15,
+              0.11
+            ],
+            [
+              20,
+              0.065
+            ],
+            [
+              25,
+              0.045
+            ],
+            [
+              30,
+              0.08
+            ],
+            [
+              35,
+              0.09
+            ],
+            [
+              40,
+              0.075
+            ],
+            [
+              45,
+              0.05
+            ],
+            [
+              50,
+              0.045
+            ],
+            [
+              60,
+              0.06
+            ],
+            [
+              70,
+              0.05
+            ],
+            [
+              80,
+              0.035
+            ],
+            [
+              90,
+              0.03
+            ]
+          ],
+          "interpolation": "PCHIP",
+          "qualification": "Manual grid reading of published rigorous reference; approximate digitization, not a new rigorous solver."
+        },
+        "endpoint_evaluation": "One-sided numerical angular limit, 2e-6 radians; removable forward singularity evaluated at1e-6 radians."
+      },
+      "source_crop": "images/c-0159-fig60.png",
+      "vector_outputs": [
+        "images/recreated/c-0159-fig60.pdf",
+        "images/recreated/c-0159-fig60.svg"
+      ],
+      "text_outside_canvas": [],
+      "category": "calculated-and-digitized",
+      "verification": {
+        "one_pdf_page": true,
+        "raster_objects": 0,
+        "aspect_relative_error": 2.537969834293108e-13,
+        "text_outside_canvas": []
+      }
+    },
+    {
+      "asset": "c-0159-fig61",
+      "figure": 61,
+      "method": "formula",
+      "description": "Strip scattering magnitudes, with independently redrawn axes and comparison curves.",
+      "equations": [
+        "20.04",
+        "20.05",
+        "21.22",
+        "21.23",
+        "22.13",
+        "23.02",
+        "23.10",
+        "23.13",
+        "23.14",
+        "23.15"
+      ],
+      "details": {
+        "ka": 8.94427190999916,
+        "alpha_degrees": -90.0,
+        "backscatter": false,
+        "drawn_computed_curves": [
+          "e2"
+        ],
+        "unsuffixed_curve": {
+          "label": "e",
+          "provenance": "Calculated secondary-diffraction approximation (subscript2), displayed under the original unsuffixed figure label. No new rigorous solution is claimed; the source reports close agreement."
+        },
+        "rigorous_reference": null,
+        "endpoint_evaluation": "One-sided numerical angular limit, 2e-6 radians; removable forward singularity evaluated at1e-6 radians."
+      },
+      "source_crop": "images/c-0159-fig61.png",
+      "vector_outputs": [
+        "images/recreated/c-0159-fig61.pdf",
+        "images/recreated/c-0159-fig61.svg"
+      ],
+      "text_outside_canvas": [],
+      "category": "calculated",
+      "verification": {
+        "one_pdf_page": true,
+        "raster_objects": 0,
+        "aspect_relative_error": 3.6004532688593827e-13,
+        "text_outside_canvas": []
+      }
+    },
+    {
+      "asset": "c-0160-fig62",
+      "figure": 62,
+      "method": "formula",
+      "description": "Strip scattering magnitudes, with independently redrawn axes and comparison curves.",
+      "equations": [
+        "20.04",
+        "20.05",
+        "21.22",
+        "21.23",
+        "22.13",
+        "23.02",
+        "23.10",
+        "23.13",
+        "23.14",
+        "23.15"
+      ],
+      "details": {
+        "ka": 8.94427190999916,
+        "alpha_degrees": null,
+        "backscatter": true,
+        "drawn_computed_curves": [
+          "e2"
+        ],
+        "unsuffixed_curve": {
+          "label": "e",
+          "provenance": "Calculated secondary-diffraction approximation (subscript2), displayed under the original unsuffixed figure label. No new rigorous solution is claimed; the source reports close agreement."
+        },
+        "rigorous_reference": null,
+        "endpoint_evaluation": "One-sided numerical angular limit, 2e-6 radians; removable forward singularity evaluated at1e-6 radians."
+      },
+      "source_crop": "images/c-0160-fig62.png",
+      "vector_outputs": [
+        "images/recreated/c-0160-fig62.pdf",
+        "images/recreated/c-0160-fig62.svg"
+      ],
+      "text_outside_canvas": [],
+      "category": "calculated",
+      "verification": {
+        "one_pdf_page": true,
+        "raster_objects": 0,
+        "aspect_relative_error": 1.674216321134736e-13,
+        "text_outside_canvas": []
+      }
+    },
+    {
+      "asset": "c-0162-fig63",
+      "figure": 63,
+      "method": "geometry",
+      "description": "Independent vector reconstruction of the original scientific diagram.",
+      "equations": [],
+      "details": {
+        "source": "Original scanned figure, geometry and labels redrawn independently; no raster embedded."
+      },
+      "source_crop": "images/c-0162-fig63.png",
+      "vector_outputs": [
+        "images/recreated/c-0162-fig63.pdf",
+        "images/recreated/c-0162-fig63.svg"
+      ],
+      "text_outside_canvas": [],
+      "category": "geometric-redraw",
+      "verification": {
+        "one_pdf_page": true,
+        "raster_objects": 0,
+        "aspect_relative_error": 0.0,
+        "text_outside_canvas": []
+      }
+    },
+    {
+      "asset": "c-0162-fig64",
+      "figure": 64,
+      "method": "geometry",
+      "description": "Independent vector reconstruction of the original scientific diagram.",
+      "equations": [],
+      "details": {
+        "source": "Original scanned figure, geometry and labels redrawn independently; no raster embedded."
+      },
+      "source_crop": "images/c-0162-fig64.png",
+      "vector_outputs": [
+        "images/recreated/c-0162-fig64.pdf",
+        "images/recreated/c-0162-fig64.svg"
+      ],
+      "text_outside_canvas": [],
+      "category": "geometric-redraw",
+      "verification": {
+        "one_pdf_page": true,
+        "raster_objects": 0,
+        "aspect_relative_error": 2.220446049250313e-16,
+        "text_outside_canvas": []
+      }
+    },
+    {
+      "asset": "c-0169-fig65",
+      "figure": 65,
+      "method": "mixed",
+      "description": "Disk backscattering cross section reconstructed from the published diffraction formulas; experimental traces independently digitized.",
+      "equations": [
+        "12.15",
+        "12.17",
+        "21.22",
+        "21.23",
+        "22.13",
+        "24.25",
+        "24.26",
+        "26.19"
+      ],
+      "details": {
+        "ka": 5,
+        "axis": "10log10 cross section normalized by pi*a^2",
+        "near_axis_join": "Per paragraph following24.26, smoothly join12.15 to24.25 over0–20degrees. smoothstep makes the switch explicit and reproducible.",
+        "experimental_control_points": [
+          [
+            [
+              0,
+              13.8
+            ],
+            [
+              5,
+              13
+            ],
+            [
+              10,
+              11.5
+            ],
+            [
+              15,
+              7.5
+            ],
+            [
+              18,
+              2
+            ],
+            [
+              20,
+              -5
+            ],
+            [
+              22,
+              -11
+            ],
+            [
+              23,
+              -18
+            ],
+            [
+              25,
+              -9
+            ],
+            [
+              28,
+              -6
+            ],
+            [
+              32,
+              -5.5
+            ],
+            [
+              38,
+              -6.2
+            ],
+            [
+              42,
+              -6.5
+            ],
+            [
+              50,
+              -5.8
+            ],
+            [
+              55,
+              -5.6
+            ],
+            [
+              60,
+              -6.5
+            ],
+            [
+              65,
+              -8.7
+            ],
+            [
+              70,
+              -12
+            ],
+            [
+              75,
+              -17
+            ],
+            [
+              80,
+              -21
+            ],
+            [
+              85,
+              -28
+            ],
+            [
+              90,
+              -38
+            ]
+          ],
+          [
+            [
+              0,
+              13.8
+            ],
+            [
+              5,
+              13.2
+            ],
+            [
+              10,
+              11.9
+            ],
+            [
+              15,
+              8.3
+            ],
+            [
+              18,
+              3
+            ],
+            [
+              21,
+              -3
+            ],
+            [
+              23,
+              -10
+            ],
+            [
+              24,
+              -11.4
+            ],
+            [
+              26,
+              -8.2
+            ],
+            [
+              29,
+              -5.5
+            ],
+            [
+              32,
+              -4.2
+            ],
+            [
+              35,
+              -4.3
+            ],
+            [
+              40,
+              -5.2
+            ],
+            [
+              45,
+              -6
+            ],
+            [
+              50,
+              -5.8
+            ],
+            [
+              55,
+              -5.4
+            ],
+            [
+              60,
+              -6.1
+            ],
+            [
+              65,
+              -8.3
+            ],
+            [
+              70,
+              -11.7
+            ],
+            [
+              75,
+              -16.4
+            ],
+            [
+              80,
+              -21.2
+            ],
+            [
+              85,
+              -28
+            ],
+            [
+              90,
+              -38
+            ]
+          ]
+        ],
+        "interpolation": "PCHIP for experimental traces only",
+        "precision": "Experimental traces are approximate visual grid readings, not original measurement tables."
+      },
+      "source_crop": "images/c-0169-fig65.png",
+      "vector_outputs": [
+        "images/recreated/c-0169-fig65.pdf",
+        "images/recreated/c-0169-fig65.svg"
+      ],
+      "text_outside_canvas": [],
+      "category": "calculated-and-digitized",
+      "verification": {
+        "one_pdf_page": true,
+        "raster_objects": 0,
+        "aspect_relative_error": 4.674038933671909e-14,
+        "text_outside_canvas": []
+      }
+    },
+    {
+      "asset": "c-0170-fig66",
+      "figure": 66,
+      "method": "formula",
+      "description": "Disk backscattering cross section reconstructed from the published diffraction formulas; experimental traces independently digitized.",
+      "equations": [
+        "12.15",
+        "12.17",
+        "21.22",
+        "21.23",
+        "22.13",
+        "24.25",
+        "24.26",
+        "26.19"
+      ],
+      "details": {
+        "ka": 5,
+        "axis": "10log10 cross section normalized by pi*a^2",
+        "near_axis_join": "Per paragraph following24.26, smoothly join12.15 to24.25 over0–20degrees. smoothstep makes the switch explicit and reproducible.",
+        "experimental_control_points": [],
+        "interpolation": "PCHIP for experimental traces only",
+        "precision": "Experimental traces are approximate visual grid readings, not original measurement tables."
+      },
+      "source_crop": "images/c-0170-fig66.png",
+      "vector_outputs": [
+        "images/recreated/c-0170-fig66.pdf",
+        "images/recreated/c-0170-fig66.svg"
+      ],
+      "text_outside_canvas": [],
+      "category": "calculated",
+      "verification": {
+        "one_pdf_page": true,
+        "raster_objects": 0,
+        "aspect_relative_error": 2.4202861936828413e-14,
+        "text_outside_canvas": []
+      }
+    },
+    {
+      "asset": "c-0171-fig67",
+      "figure": 67,
+      "method": "mixed",
+      "description": "Disk normal-incidence amplitude and phase, computed approximations with independently digitized rigorous-reference traces.",
+      "equations": [
+        "7.11",
+        "9.03",
+        "9.05",
+        "9.07",
+        "24.20",
+        "24.21"
+      ],
+      "details": {
+        "ka": 5,
+        "curve1": "Published rigorous reference manually digitized from scan grid",
+        "curve2": "Physical optics,7.11 (amplitude)",
+        "curve3": "Primary diffraction,9.03/9.05",
+        "curve4": "Secondary diffraction,24.20/24.21 with near-axis join recommended in24",
+        "rigorous_amplitude_control_points": [
+          [
+            0,
+            1.04
+          ],
+          [
+            10,
+            0.91
+          ],
+          [
+            20,
+            0.66
+          ],
+          [
+            30,
+            0.35
+          ],
+          [
+            40,
+            0.13
+          ],
+          [
+            47,
+            0.085
+          ],
+          [
+            55,
+            0.1
+          ],
+          [
+            65,
+            0.11
+          ],
+          [
+            80,
+            0.115
+          ],
+          [
+            90,
+            0.11
+          ],
+          [
+            100,
+            0.115
+          ],
+          [
+            115,
+            0.11
+          ],
+          [
+            125,
+            0.1
+          ],
+          [
+            133,
+            0.085
+          ],
+          [
+            140,
+            0.13
+          ],
+          [
+            150,
+            0.35
+          ],
+          [
+            160,
+            0.66
+          ],
+          [
+            170,
+            0.91
+          ],
+          [
+            180,
+            1.04
+          ]
+        ],
+        "rigorous_phase_control_points_degrees": [
+          [
+            0,
+            -3
+          ],
+          [
+            10,
+            -4
+          ],
+          [
+            20,
+            -8
+          ],
+          [
+            30,
+            -16
+          ],
+          [
+            40,
+            -36
+          ],
+          [
+            50,
+            -91
+          ],
+          [
+            60,
+            -141
+          ],
+          [
+            70,
+            -161
+          ],
+          [
+            80,
+            -171
+          ],
+          [
+            90,
+            -173
+          ],
+          [
+            100,
+            -171
+          ],
+          [
+            110,
+            -161
+          ],
+          [
+            120,
+            -141
+          ],
+          [
+            130,
+            -91
+          ],
+          [
+            140,
+            -36
+          ],
+          [
+            150,
+            -16
+          ],
+          [
+            160,
+            -8
+          ],
+          [
+            170,
+            -4
+          ],
+          [
+            180,
+            -3
+          ]
+        ],
+        "interpolation": "PCHIP for curve1; computed complex amplitudes for3/4",
+        "near_axis_join_degrees": 22,
+        "phase_convention": "For V2 second hemisphere add180degrees, as annotated in original."
+      },
+      "source_crop": "images/c-0171-fig67.png",
+      "vector_outputs": [
+        "images/recreated/c-0171-fig67.pdf",
+        "images/recreated/c-0171-fig67.svg"
+      ],
+      "text_outside_canvas": [],
+      "category": "calculated-and-digitized",
+      "verification": {
+        "one_pdf_page": true,
+        "raster_objects": 0,
+        "aspect_relative_error": 7.416289804496046e-14,
+        "text_outside_canvas": []
+      }
+    },
+    {
+      "asset": "c-0172-fig68",
+      "figure": 68,
+      "method": "mixed",
+      "description": "Disk normal-incidence amplitude and phase, computed approximations with independently digitized rigorous-reference traces.",
+      "equations": [
+        "7.11",
+        "9.03",
+        "9.05",
+        "9.07",
+        "24.20",
+        "24.21"
+      ],
+      "details": {
+        "ka": 5,
+        "curve1": "Published rigorous reference manually digitized from scan grid",
+        "curve2": "Physical optics,7.11 (amplitude)",
+        "curve3": "Primary diffraction,9.03/9.05",
+        "curve4": "Secondary diffraction,24.20/24.21 with near-axis join recommended in24",
+        "rigorous_amplitude_control_points": [
+          [
+            0,
+            1.04
+          ],
+          [
+            10,
+            0.91
+          ],
+          [
+            20,
+            0.67
+          ],
+          [
+            30,
+            0.35
+          ],
+          [
+            40,
+            0.16
+          ],
+          [
+            50,
+            0.11
+          ],
+          [
+            60,
+            0.075
+          ],
+          [
+            70,
+            0.04
+          ],
+          [
+            80,
+            0.018
+          ],
+          [
+            90,
+            0
+          ],
+          [
+            100,
+            0.018
+          ],
+          [
+            110,
+            0.04
+          ],
+          [
+            120,
+            0.075
+          ],
+          [
+            130,
+            0.11
+          ],
+          [
+            140,
+            0.16
+          ],
+          [
+            150,
+            0.35
+          ],
+          [
+            160,
+            0.67
+          ],
+          [
+            170,
+            0.91
+          ],
+          [
+            180,
+            1.04
+          ]
+        ],
+        "rigorous_phase_control_points_degrees": [
+          [
+            0,
+            -3
+          ],
+          [
+            10,
+            -2
+          ],
+          [
+            20,
+            5
+          ],
+          [
+            30,
+            20
+          ],
+          [
+            40,
+            65
+          ],
+          [
+            50,
+            110
+          ],
+          [
+            60,
+            128
+          ],
+          [
+            70,
+            135
+          ],
+          [
+            80,
+            138
+          ],
+          [
+            90,
+            138
+          ],
+          [
+            100,
+            138
+          ],
+          [
+            110,
+            135
+          ],
+          [
+            120,
+            128
+          ],
+          [
+            130,
+            110
+          ],
+          [
+            140,
+            65
+          ],
+          [
+            150,
+            20
+          ],
+          [
+            160,
+            5
+          ],
+          [
+            170,
+            -2
+          ],
+          [
+            180,
+            -3
+          ]
+        ],
+        "interpolation": "PCHIP for curve1; computed complex amplitudes for3/4",
+        "near_axis_join_degrees": 22,
+        "phase_convention": "For V2 second hemisphere add180degrees, as annotated in original."
+      },
+      "source_crop": "images/c-0172-fig68.png",
+      "vector_outputs": [
+        "images/recreated/c-0172-fig68.pdf",
+        "images/recreated/c-0172-fig68.svg"
+      ],
+      "text_outside_canvas": [],
+      "category": "calculated-and-digitized",
+      "verification": {
+        "one_pdf_page": true,
+        "raster_objects": 0,
+        "aspect_relative_error": 7.638334409421077e-14,
+        "text_outside_canvas": []
+      }
+    },
+    {
+      "asset": "c-0183-fig69",
+      "figure": 69,
+      "method": "geometry",
+      "description": "Independent vector reconstruction of the original scientific diagram.",
+      "equations": [],
+      "details": {
+        "source": "Original scanned figure, geometry and labels redrawn independently; no raster embedded."
+      },
+      "source_crop": "images/c-0183-fig69.png",
+      "vector_outputs": [
+        "images/recreated/c-0183-fig69.pdf",
+        "images/recreated/c-0183-fig69.svg"
+      ],
+      "text_outside_canvas": [],
+      "category": "geometric-redraw",
+      "verification": {
+        "one_pdf_page": true,
+        "raster_objects": 0,
+        "aspect_relative_error": 1.0791367799356522e-13,
+        "text_outside_canvas": []
+      }
+    },
+    {
+      "asset": "c-0183-fig70",
+      "figure": 70,
+      "method": "geometry",
+      "description": "Independent vector reconstruction of the original scientific diagram.",
+      "equations": [],
+      "details": {
+        "source": "Original scanned figure, geometry and labels redrawn independently; no raster embedded."
+      },
+      "source_crop": "images/c-0183-fig70.png",
+      "vector_outputs": [
+        "images/recreated/c-0183-fig70.pdf",
+        "images/recreated/c-0183-fig70.svg"
+      ],
+      "text_outside_canvas": [],
+      "category": "geometric-redraw",
+      "verification": {
+        "one_pdf_page": true,
+        "raster_objects": 0,
+        "aspect_relative_error": 1.1235457009206584e-13,
+        "text_outside_canvas": []
+      }
+    },
+    {
+      "asset": "c-0188-fig71",
+      "figure": 71,
+      "method": "digitized",
+      "description": "Published nonuniform-current scattering diagram, with theoretical dashed and measured solid traces independently digitized.",
+      "equations": [
+        "26.19"
+      ],
+      "details": {
+        "ka": 5,
+        "axis": "sigma+, dB as printed; absolute dB normalization unspecified in figure",
+        "theoretical_control_points": [
+          [
+            -90,
+            -10
+          ],
+          [
+            -80,
+            -10.5
+          ],
+          [
+            -75,
+            -12
+          ],
+          [
+            -70,
+            -16
+          ],
+          [
+            -65,
+            -22
+          ],
+          [
+            -60,
+            -18
+          ],
+          [
+            -55,
+            -8
+          ],
+          [
+            -50,
+            -3.5
+          ],
+          [
+            -45,
+            -2.4
+          ],
+          [
+            -40,
+            -3.5
+          ],
+          [
+            -35,
+            -8
+          ],
+          [
+            -30,
+            -16
+          ],
+          [
+            -27,
+            -11
+          ],
+          [
+            -23,
+            -1.5
+          ],
+          [
+            -18,
+            0
+          ],
+          [
+            -13,
+            -4
+          ],
+          [
+            -8,
+            -14
+          ],
+          [
+            -4,
+            -21
+          ],
+          [
+            0,
+            -45
+          ],
+          [
+            4,
+            -21
+          ],
+          [
+            8,
+            -14
+          ],
+          [
+            13,
+            -4
+          ],
+          [
+            18,
+            0
+          ],
+          [
+            23,
+            -1.5
+          ],
+          [
+            27,
+            -11
+          ],
+          [
+            30,
+            -16
+          ],
+          [
+            35,
+            -8
+          ],
+          [
+            40,
+            -3.5
+          ],
+          [
+            45,
+            -2.4
+          ],
+          [
+            50,
+            -3.5
+          ],
+          [
+            55,
+            -8
+          ],
+          [
+            60,
+            -18
+          ],
+          [
+            65,
+            -22
+          ],
+          [
+            70,
+            -16
+          ],
+          [
+            75,
+            -12
+          ],
+          [
+            80,
+            -10.5
+          ],
+          [
+            90,
+            -10
+          ]
+        ],
+        "measured_control_points": [
+          [
+            -90,
+            -7
+          ],
+          [
+            -80,
+            -6.4
+          ],
+          [
+            -75,
+            -7
+          ],
+          [
+            -70,
+            -9.5
+          ],
+          [
+            -65,
+            -13.5
+          ],
+          [
+            -62,
+            -15
+          ],
+          [
+            -60,
+            -14
+          ],
+          [
+            -55,
+            -7.5
+          ],
+          [
+            -50,
+            -4
+          ],
+          [
+            -45,
+            -3.2
+          ],
+          [
+            -41,
+            -3.2
+          ],
+          [
+            -36,
+            -6
+          ],
+          [
+            -33,
+            -13
+          ],
+          [
+            -31,
+            -15.5
+          ],
+          [
+            -28,
+            -9
+          ],
+          [
+            -24,
+            -1
+          ],
+          [
+            -20,
+            0
+          ],
+          [
+            -17,
+            -1
+          ],
+          [
+            -13,
+            -5
+          ],
+          [
+            -9,
+            -13
+          ],
+          [
+            -6,
+            -14.5
+          ],
+          [
+            -4,
+            -12
+          ],
+          [
+            0,
+            -30
+          ],
+          [
+            4,
+            -8
+          ],
+          [
+            10,
+            -2
+          ],
+          [
+            15,
+            1.7
+          ],
+          [
+            20,
+            2.2
+          ],
+          [
+            24,
+            -0.5
+          ],
+          [
+            28,
+            -8.5
+          ],
+          [
+            31,
+            -8
+          ],
+          [
+            35,
+            -2.5
+          ],
+          [
+            40,
+            0
+          ],
+          [
+            44,
+            -0.2
+          ],
+          [
+            48,
+            -3
+          ],
+          [
+            53,
+            -9
+          ],
+          [
+            58,
+            -13.5
+          ],
+          [
+            64,
+            -15
+          ],
+          [
+            68,
+            -12
+          ],
+          [
+            75,
+            -9
+          ],
+          [
+            80,
+            -6.7
+          ],
+          [
+            90,
+            -6.4
+          ]
+        ],
+        "interpolation": "PCHIP",
+        "qualification": "Approximate readings from the original plot, preserving its ordinate and visible extrema. Eq26.19 defines the quantity; no unsupported absolute-area normalization inferred."
+      },
+      "source_crop": "images/c-0188-fig71.png",
+      "vector_outputs": [
+        "images/recreated/c-0188-fig71.pdf",
+        "images/recreated/c-0188-fig71.svg"
+      ],
+      "text_outside_canvas": [],
+      "category": "digitized",
+      "verification": {
+        "one_pdf_page": true,
+        "raster_objects": 0,
+        "aspect_relative_error": 4.651834473179406e-14,
+        "text_outside_canvas": []
+      }
+    },
+    {
+      "asset": "c-0189-fig72",
+      "figure": 72,
+      "method": "geometry",
+      "description": "Independent vector reconstruction of the original scientific diagram.",
+      "equations": [],
+      "details": {
+        "source": "Original scanned figure, geometry and labels redrawn independently; no raster embedded."
+      },
+      "source_crop": "images/c-0189-fig72.png",
+      "vector_outputs": [
+        "images/recreated/c-0189-fig72.pdf",
+        "images/recreated/c-0189-fig72.svg"
+      ],
+      "text_outside_canvas": [],
+      "category": "geometric-redraw",
+      "verification": {
+        "one_pdf_page": true,
+        "raster_objects": 0,
+        "aspect_relative_error": 7.505107646466058e-14,
+        "text_outside_canvas": []
+      }
+    },
+    {
+      "asset": "r-0204-fig73",
+      "figure": 73,
+      "method": "geometric-redraw",
+      "description": "Wire and electromagnetic excitation geometry redrawn with vector paths and mathematical labels.",
+      "equations": [],
+      "details": {},
+      "source_crop": "images/r-0204-fig73.png",
+      "vector_outputs": [
+        "images/recreated/r-0204-fig73.pdf",
+        "images/recreated/r-0204-fig73.svg"
+      ],
+      "text_outside_canvas": [],
+      "category": "geometric-redraw",
+      "verification": {
+        "one_pdf_page": true,
+        "raster_objects": 0,
+        "aspect_relative_error": 1.1757261830780408e-13,
+        "text_outside_canvas": []
+      }
+    },
+    {
+      "asset": "r-0208-fig74",
+      "figure": 74,
+      "method": "geometric-redraw",
+      "description": "Wire and electromagnetic excitation geometry redrawn with vector paths and mathematical labels.",
+      "equations": [],
+      "details": {},
+      "source_crop": "images/r-0208-fig74.png",
+      "vector_outputs": [
+        "images/recreated/r-0208-fig74.pdf",
+        "images/recreated/r-0208-fig74.svg"
+      ],
+      "text_outside_canvas": [],
+      "category": "geometric-redraw",
+      "verification": {
+        "one_pdf_page": true,
+        "raster_objects": 0,
+        "aspect_relative_error": 1.6830981053317373e-13,
+        "text_outside_canvas": []
+      }
+    },
+    {
+      "asset": "r-0221-fig75",
+      "figure": 75,
+      "method": "mixed-formula-and-digitized",
+      "description": "Dashed curve evaluated from33.04; solid electrostatic-cylinder result of reference92 digitized from the printed curve.",
+      "equations": [
+        "33.04"
+      ],
+      "details": {
+        "reference_anchors": {
+          "l": [
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16
+          ],
+          "D": [
+            0.33,
+            0.301,
+            0.276,
+            0.257,
+            0.242,
+            0.229,
+            0.219,
+            0.21,
+            0.203,
+            0.196,
+            0.19
+          ]
+        },
+        "digitization": "Visual control points; not original experimental or tabulated data."
+      },
+      "source_crop": "images/r-0221-fig75.png",
+      "vector_outputs": [
+        "images/recreated/r-0221-fig75.pdf",
+        "images/recreated/r-0221-fig75.svg"
+      ],
+      "text_outside_canvas": [],
+      "category": "calculated-and-digitized",
+      "verification": {
+        "one_pdf_page": true,
+        "raster_objects": 0,
+        "aspect_relative_error": 3.885780586188048e-14,
+        "text_outside_canvas": []
+      }
+    },
+    {
+      "asset": "r-0226-fig76",
+      "figure": 76,
+      "method": "mixed-formula-and-digitized",
+      "description": "Curve2 computed directly for chi=-0.1 and-0.05; curve1 reference85 reconstructed from visually digitized logarithmic plot anchors.",
+      "equations": [
+        "28.21",
+        "32.08",
+        "34.07"
+      ],
+      "details": {
+        "comparison_x": [
+          0.2,
+          0.27,
+          0.34,
+          0.39,
+          0.43,
+          0.455,
+          0.48,
+          0.5,
+          0.53,
+          0.57,
+          0.65,
+          0.8,
+          1.0,
+          1.2,
+          1.35,
+          1.42,
+          1.47,
+          1.5,
+          1.55,
+          1.65,
+          1.8,
+          2.0,
+          2.2,
+          2.35,
+          2.42,
+          2.46,
+          2.49,
+          2.54,
+          2.65,
+          2.8,
+          3.0
+        ],
+        "comparison_y": [
+          [
+            0.0013,
+            0.006,
+            0.027,
+            0.12,
+            0.55,
+            1.55,
+            2.05,
+            1.75,
+            0.95,
+            0.5,
+            0.27,
+            0.13,
+            0.068,
+            0.055,
+            0.068,
+            0.11,
+            0.21,
+            0.205,
+            0.13,
+            0.065,
+            0.044,
+            0.035,
+            0.029,
+            0.033,
+            0.045,
+            0.058,
+            0.058,
+            0.035,
+            0.023,
+            0.018,
+            0.014
+          ],
+          [
+            0.0003,
+            0.0018,
+            0.008,
+            0.045,
+            0.25,
+            0.85,
+            2.0,
+            1.8,
+            0.52,
+            0.21,
+            0.079,
+            0.026,
+            0.014,
+            0.012,
+            0.014,
+            0.024,
+            0.14,
+            0.15,
+            0.04,
+            0.015,
+            0.01,
+            0.0084,
+            0.0073,
+            0.0085,
+            0.013,
+            0.038,
+            0.045,
+            0.014,
+            0.0085,
+            0.0065,
+            0.0054
+          ]
+        ],
+        "comparison_uncertainty": "Approximate reading of a thick printed curve on logarithmic axes."
+      },
+      "source_crop": "images/r-0226-fig76.png",
+      "vector_outputs": [
+        "images/recreated/r-0226-fig76.pdf",
+        "images/recreated/r-0226-fig76.svg"
+      ],
+      "text_outside_canvas": [],
+      "category": "calculated-and-digitized",
+      "verification": {
+        "one_pdf_page": true,
+        "raster_objects": 0,
+        "aspect_relative_error": 4.973799150320701e-14,
+        "text_outside_canvas": []
+      }
+    },
+    {
+      "asset": "r-0228-fig77",
+      "figure": 77,
+      "method": "mixed-formula-and-digitized",
+      "description": "Curve3 computed with Omega_p=15. Comparison1(Lindroth79) and2(VanVleck86) digitized from the original plot; plotted ordinate is100sigma/lambda².",
+      "equations": [
+        "28.21",
+        "32.08",
+        "34.12"
+      ],
+      "details": {
+        "Omega_p": 15,
+        "comparison_1": {
+          "x": [
+            0,
+            0.25,
+            0.31,
+            0.35,
+            0.39,
+            0.42,
+            0.45,
+            0.465,
+            0.477,
+            0.49,
+            0.51,
+            0.54,
+            0.59,
+            0.67,
+            0.78,
+            0.95,
+            1.1,
+            1.25,
+            1.32,
+            1.37,
+            1.42,
+            1.46,
+            1.48,
+            1.52,
+            1.58,
+            1.67,
+            1.78,
+            1.9,
+            2.05,
+            2.15,
+            2.25,
+            2.33,
+            2.37,
+            2.4,
+            2.43,
+            2.48,
+            2.5
+          ],
+          "y": [
+            0,
+            0.08,
+            0.3,
+            1.2,
+            4,
+            10,
+            24,
+            37,
+            39,
+            30,
+            15,
+            7,
+            4.7,
+            3.8,
+            3.7,
+            3.9,
+            3.9,
+            3.7,
+            4.3,
+            7,
+            23,
+            32,
+            32.5,
+            28,
+            23,
+            21.5,
+            21,
+            21.6,
+            21.5,
+            20.7,
+            18,
+            16,
+            19,
+            30,
+            51,
+            65,
+            65
+          ]
+        },
+        "comparison_2": {
+          "x": [
+            0,
+            0.25,
+            0.34,
+            0.4,
+            0.45,
+            0.48,
+            0.5,
+            0.52,
+            0.56,
+            0.64,
+            0.78,
+            1,
+            1.17,
+            1.3,
+            1.37,
+            1.42,
+            1.46,
+            1.49,
+            1.54,
+            1.6,
+            1.7,
+            1.85,
+            2,
+            2.15,
+            2.3,
+            2.4,
+            2.5
+          ],
+          "y": [
+            0,
+            0.03,
+            0.2,
+            1.5,
+            5,
+            22,
+            45,
+            20,
+            8,
+            4.6,
+            3.9,
+            4.1,
+            3.8,
+            2.5,
+            2,
+            5,
+            27,
+            40,
+            27,
+            23,
+            21.5,
+            22,
+            24,
+            26,
+            28,
+            32,
+            45
+          ]
+        },
+        "digitization": "Shape-preserving interpolation of manually read control points, including the separated second/third resonance branches."
+      },
+      "source_crop": "images/r-0228-fig77.png",
+      "vector_outputs": [
+        "images/recreated/r-0228-fig77.pdf",
+        "images/recreated/r-0228-fig77.svg"
+      ],
+      "text_outside_canvas": [],
+      "category": "calculated-and-digitized",
+      "verification": {
+        "one_pdf_page": true,
+        "raster_objects": 0,
+        "aspect_relative_error": 2.3092638912203256e-14,
+        "text_outside_canvas": []
+      }
+    },
+    {
+      "asset": "r-0228-fig78",
+      "figure": 78,
+      "method": "mixed-formula-and-digitized",
+      "description": "Dotted curve calculated for L=5cm, Omega_p=15, with frequency converted fromMHz. Solid reference79 trace digitized separately.",
+      "equations": [
+        "28.21",
+        "32.08",
+        "34.12"
+      ],
+      "details": {
+        "length_cm": 5,
+        "Omega_p": 15,
+        "comparison_MHz": [
+          1800,
+          2200,
+          2450,
+          2600,
+          2700,
+          2800,
+          2850,
+          2900,
+          3000,
+          3150,
+          3350,
+          3600,
+          4000,
+          5000,
+          6000,
+          7000,
+          8000,
+          8500,
+          8750,
+          9000,
+          9300,
+          9600,
+          10000,
+          11000,
+          12000
+        ],
+        "comparison_cm2": [
+          0.6,
+          2,
+          5,
+          12,
+          26,
+          37,
+          35,
+          26,
+          14,
+          7,
+          4,
+          3,
+          2.3,
+          1.7,
+          1.4,
+          1.15,
+          0.95,
+          1.1,
+          2.3,
+          4.0,
+          3.4,
+          2.7,
+          2.2,
+          1.6,
+          1.4
+        ]
+      },
+      "source_crop": "images/r-0228-fig78.png",
+      "vector_outputs": [
+        "images/recreated/r-0228-fig78.pdf",
+        "images/recreated/r-0228-fig78.svg"
+      ],
+      "text_outside_canvas": [],
+      "category": "calculated-and-digitized",
+      "verification": {
+        "one_pdf_page": true,
+        "raster_objects": 0,
+        "aspect_relative_error": 8.903988657493755e-14,
+        "text_outside_canvas": []
+      }
+    },
+    {
+      "asset": "r-0229-fig79",
+      "figure": 79,
+      "method": "mixed-formula-and-digitized",
+      "description": "Curve2 computed from the book. Published comparison curves1(Tai),3(induced emf),4(VanVleck) are symmetric digitizations from the printed figure.",
+      "equations": [
+        "28.21",
+        "32.08",
+        "32.09",
+        "34.12"
+      ],
+      "details": {
+        "L_over_lambda": 0.5,
+        "L_over_a": 900,
+        "reference_angles_deg": [
+          0,
+          10,
+          20,
+          30,
+          40,
+          50,
+          60,
+          70,
+          80,
+          90
+        ],
+        "curve_1": [
+          0,
+          0.0003,
+          0.003,
+          0.011,
+          0.032,
+          0.072,
+          0.124,
+          0.182,
+          0.224,
+          0.238
+        ],
+        "curve_3": [
+          0,
+          0.0004,
+          0.004,
+          0.017,
+          0.052,
+          0.108,
+          0.187,
+          0.264,
+          0.309,
+          0.32
+        ],
+        "curve_4": [
+          0,
+          0.0004,
+          0.006,
+          0.022,
+          0.07,
+          0.145,
+          0.245,
+          0.33,
+          0.371,
+          0.38
+        ],
+        "calculated_peak": 0.28726625853506765
+      },
+      "source_crop": "images/r-0229-fig79.png",
+      "vector_outputs": [
+        "images/recreated/r-0229-fig79.pdf",
+        "images/recreated/r-0229-fig79.svg"
+      ],
+      "text_outside_canvas": [],
+      "category": "calculated-and-digitized",
+      "verification": {
+        "one_pdf_page": true,
+        "raster_objects": 0,
+        "aspect_relative_error": 8.282263763703668e-14,
+        "text_outside_canvas": []
+      }
+    },
+    {
+      "asset": "r-0230-fig80",
+      "figure": 80,
+      "method": "mixed-formula-and-digitized",
+      "description": "Curve2 computed from the book. Published comparison curves1(Tai),3(induced emf),4(VanVleck) are symmetric digitizations from the printed figure.",
+      "equations": [
+        "28.21",
+        "32.08",
+        "32.09",
+        "34.12"
+      ],
+      "details": {
+        "L_over_lambda": 2.0,
+        "L_over_a": 900,
+        "reference_angles_deg": [
+          0,
+          10,
+          15,
+          20,
+          25,
+          30,
+          34,
+          36,
+          40,
+          45,
+          50,
+          55,
+          60,
+          65,
+          70,
+          75,
+          80,
+          85,
+          90
+        ],
+        "curve_1": [
+          0,
+          0.01,
+          0.035,
+          0.1,
+          0.25,
+          0.45,
+          0.565,
+          0.57,
+          0.47,
+          0.25,
+          0.075,
+          0.025,
+          0.016,
+          0.025,
+          0.045,
+          0.053,
+          0.035,
+          0.1,
+          0.21
+        ],
+        "curve_3": [
+          0,
+          0.012,
+          0.04,
+          0.14,
+          0.34,
+          0.6,
+          0.72,
+          0.735,
+          0.6,
+          0.35,
+          0.11,
+          0.025,
+          0.006,
+          0.04,
+          0.12,
+          0.14,
+          0.12,
+          0.17,
+          0.22
+        ],
+        "curve_4": [
+          0,
+          0.018,
+          0.06,
+          0.2,
+          0.5,
+          0.96,
+          1.08,
+          1.04,
+          0.72,
+          0.3,
+          0.055,
+          0.004,
+          0.01,
+          0.03,
+          0.14,
+          0.14,
+          0.14,
+          0.19,
+          0.24
+        ],
+        "calculated_peak": 0.6625787018285259
+      },
+      "source_crop": "images/r-0230-fig80.png",
+      "vector_outputs": [
+        "images/recreated/r-0230-fig80.pdf",
+        "images/recreated/r-0230-fig80.svg"
+      ],
+      "text_outside_canvas": [],
+      "category": "calculated-and-digitized",
+      "verification": {
+        "one_pdf_page": true,
+        "raster_objects": 0,
+        "aspect_relative_error": 2.531308496145357e-14,
+        "text_outside_canvas": []
+      }
+    }
+  ]
+}

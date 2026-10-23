@@ -1,0 +1,16 @@
+{
+  "asset": "a-0075-fig22",
+  "figure": 22,
+  "method": "schematic",
+  "description": "Obliquely incident plane wave and spherical disk observation geometry",
+  "equations": [
+    "10.01"
+  ],
+  "details": {},
+  "source_crop": "images/a-0075-fig22.png",
+  "vector_outputs": [
+    "images/recreated/a-0075-fig22.pdf",
+    "images/recreated/a-0075-fig22.svg"
+  ],
+  "text_outside_canvas": []
+}

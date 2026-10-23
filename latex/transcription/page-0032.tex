@@ -1,0 +1,12 @@
+\begin{scanpage}{0032}{15}
+The integral here may be represented in the form
+\[\int_0^\infty\frac{e^{-krs^2}}{s^2-is_0^2}\,ds=e^{-ikrs_0^2}\int_0^\infty ds\int_{kr}^\infty e^{-(s^2-is_0^2)t}\,dt.\]
+Changing the order of integration here, we find
+\[\begin{aligned}\int_0^\infty\frac{e^{-krs^2}}{s^2-is_0^2}\,ds&=e^{-ikrs_0^2}\int_{kr}^\infty e^{its_0^2}\frac{dt}{\sqrt t}\int_0^\infty e^{-x^2}\,dx=\\&=\frac{\sqrt\pi}{|s_0|}e^{-ikrs_0^2}\int_{\sqrt{kr}|s_0|}^\infty e^{iq^2}\,dq\end{aligned}\tag{2.11}\]
+and finally
+\[\begin{aligned}v(r,\psi)&=\frac2n\frac{\sin\frac\pi n\left|\cos\frac\psi2\right|}{\cos\frac\pi n-\cos\frac\psi n}e^{-ikr\cos\psi}\frac{e^{-i\frac\pi4}}{\sqrt\pi}\times\\&\qquad\times\int_{\sqrt{2kr}\left|\cos\frac\psi2\right|}^{\infty}e^{iq^2}\,dq.\end{aligned}\tag{2.12}\]
+The next term of the asymptotic expansion for the function $v(r,\psi)$ has a value, whose order of magnitude depends on the observation direction: in the vicinity of the border of the plane waves $(\phi\approx\pi\pm\phi_0)$ its order of magnitude is $\dfrac1{\sqrt{kr}}$, but far from it the order of magnitude is $1/kr$ in comparison with the term written in (2.12).
+
+It is convenient to represent Expression (2.12) in the following form:
+\[\begin{aligned}v(r,\psi)&=-\frac2n\frac{\sin\frac\pi n\cos\frac\psi2}{\cos\frac\pi n-\cos\frac\psi n}e^{-ikr\cos\psi}\frac{e^{-i\frac\pi4}}{\sqrt\pi}\times\\&\qquad\times\int_{\infty\cos\frac\psi2}^{\sqrt{2kr}\cos\frac\psi2}e^{iq^2}\,dq.\end{aligned}\tag{2.13}\]
+\end{scanpage}

@@ -1,0 +1,21 @@
+{
+  "asset": "b-0124-fig39",
+  "figure": 39,
+  "method": "formula",
+  "description": "Paraboloid scattering versus the shadowed-face angle.",
+  "equations": [
+    "18.04"
+  ],
+  "details": {
+    "ka": "2*pi",
+    "kl": "10*pi",
+    "tan(omega)": 0.1,
+    "k": "pi"
+  },
+  "source_crop": "images/b-0124-fig39.png",
+  "vector_outputs": [
+    "images/recreated/b-0124-fig39.pdf",
+    "images/recreated/b-0124-fig39.svg"
+  ],
+  "text_outside_canvas": []
+}

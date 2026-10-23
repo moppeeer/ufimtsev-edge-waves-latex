@@ -1,0 +1,14 @@
+{
+  "asset": "a-0050-fig14",
+  "figure": 14,
+  "method": "schematic",
+  "description": "Oblique plane-wave incidence on a conducting wedge; gamma measured to the edge",
+  "equations": [],
+  "details": {},
+  "source_crop": "images/a-0050-fig14.png",
+  "vector_outputs": [
+    "images/recreated/a-0050-fig14.pdf",
+    "images/recreated/a-0050-fig14.svg"
+  ],
+  "text_outside_canvas": []
+}

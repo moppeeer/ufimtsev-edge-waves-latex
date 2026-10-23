@@ -1,0 +1,141 @@
+{
+  "asset": "c-0157-fig56",
+  "figure": 56,
+  "method": "mixed",
+  "description": "Strip scattering magnitudes, with independently redrawn axes and comparison curves.",
+  "equations": [
+    "20.04",
+    "20.05",
+    "21.22",
+    "21.23",
+    "22.13",
+    "23.02",
+    "23.10",
+    "23.13",
+    "23.14",
+    "23.15"
+  ],
+  "details": {
+    "ka": 5.291502622129181,
+    "alpha_degrees": -45.0,
+    "backscatter": false,
+    "drawn_computed_curves": [
+      "e0",
+      "e1"
+    ],
+    "unsuffixed_curve": {
+      "label": "e",
+      "provenance": "Independently digitized published rigorous reference."
+    },
+    "rigorous_reference": {
+      "label": "e",
+      "control_points": [
+        [
+          -90,
+          0.25
+        ],
+        [
+          -80,
+          0.3
+        ],
+        [
+          -70,
+          0.4
+        ],
+        [
+          -60,
+          0.52
+        ],
+        [
+          -55,
+          0.61
+        ],
+        [
+          -50,
+          0.69
+        ],
+        [
+          -45,
+          0.74
+        ],
+        [
+          -40,
+          0.73
+        ],
+        [
+          -35,
+          0.66
+        ],
+        [
+          -30,
+          0.52
+        ],
+        [
+          -25,
+          0.34
+        ],
+        [
+          -20,
+          0.17
+        ],
+        [
+          -15,
+          0.11
+        ],
+        [
+          -10,
+          0.12
+        ],
+        [
+          -5,
+          0.16
+        ],
+        [
+          2,
+          0.2
+        ],
+        [
+          10,
+          0.17
+        ],
+        [
+          20,
+          0.105
+        ],
+        [
+          30,
+          0.1
+        ],
+        [
+          40,
+          0.14
+        ],
+        [
+          50,
+          0.14
+        ],
+        [
+          60,
+          0.12
+        ],
+        [
+          75,
+          0.085
+        ],
+        [
+          90,
+          0.055
+        ]
+      ],
+      "interpolation": "PCHIP",
+      "qualification": "Manual grid reading of published rigorous reference; approximate digitization, not a new rigorous solver."
+    },
+    "endpoint_evaluation": "One-sided numerical angular limit, 2e-6 radians; removable forward singularity evaluated at1e-6 radians."
+  },
+  "source_crop": "images/c-0157-fig56.png",
+  "vector_outputs": [
+    "images/recreated/c-0157-fig56.pdf",
+    "images/recreated/c-0157-fig56.svg"
+  ],
+  "text_outside_canvas": []
+}

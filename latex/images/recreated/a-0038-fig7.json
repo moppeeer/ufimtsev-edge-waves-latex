@@ -1,0 +1,19 @@
+{
+  "asset": "a-0038-fig7",
+  "figure": 7,
+  "method": "schematic",
+  "description": "Integration contour F and its deformations G1/G2 in the complex xi plane",
+  "equations": [
+    "3.14",
+    "3.15"
+  ],
+  "details": {
+    "schematic_parameters": "Representative placements preserve labeled boundaries and path topology; not a quantitative complex-plane scale."
+  },
+  "source_crop": "images/a-0038-fig7.png",
+  "vector_outputs": [
+    "images/recreated/a-0038-fig7.pdf",
+    "images/recreated/a-0038-fig7.svg"
+  ],
+  "text_outside_canvas": []
+}

@@ -1,0 +1,22 @@
+{
+  "asset": "b-0122-fig37",
+  "figure": 37,
+  "method": "formula",
+  "description": "Paraboloid scattering versus length with fixed rim angle.",
+  "equations": [
+    "18.04",
+    "18.06"
+  ],
+  "details": {
+    "k": "pi",
+    "Omega_degrees": 90,
+    "tan(omega)": 0.1,
+    "a": "0.2*l"
+  },
+  "source_crop": "images/b-0122-fig37.png",
+  "vector_outputs": [
+    "images/recreated/b-0122-fig37.pdf",
+    "images/recreated/b-0122-fig37.svg"
+  ],
+  "text_outside_canvas": []
+}

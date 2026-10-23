@@ -1,0 +1,138 @@
+{
+  "asset": "b-0104-fig25",
+  "figure": 25,
+  "method": "mixed: formula and manually digitized experiment",
+  "description": "Finite-cylinder radar scattering, E-polarization.",
+  "equations": [
+    "15.02",
+    "15.04",
+    "15.05",
+    "15.08"
+  ],
+  "details": {
+    "ka": "pi",
+    "kl": "10*pi",
+    "theory": "direct Bessel-function evaluation",
+    "experimental_control_points_theta_deg_dB": [
+      [
+        90.0,
+        20.0
+      ],
+      [
+        91.5,
+        17.3
+      ],
+      [
+        93.0,
+        10.0
+      ],
+      [
+        94.3,
+        -5.8
+      ],
+      [
+        95.7,
+        9.7
+      ],
+      [
+        97.7,
+        -7.0
+      ],
+      [
+        99.5,
+        5.8
+      ],
+      [
+        102.0,
+        -8.8
+      ],
+      [
+        104.0,
+        2.7
+      ],
+      [
+        106.2,
+        -9.0
+      ],
+      [
+        108.5,
+        0.0
+      ],
+      [
+        111.0,
+        -9.0
+      ],
+      [
+        113.8,
+        -2.5
+      ],
+      [
+        116.5,
+        -9.0
+      ],
+      [
+        119.8,
+        -4.0
+      ],
+      [
+        123.0,
+        -9.0
+      ],
+      [
+        127.0,
+        -4.5
+      ],
+      [
+        131.0,
+        -9.0
+      ],
+      [
+        135.0,
+        -4.6
+      ],
+      [
+        140.0,
+        -8.0
+      ],
+      [
+        145.0,
+        -3.1
+      ],
+      [
+        150.0,
+        2.2
+      ],
+      [
+        155.0,
+        7.0
+      ],
+      [
+        160.0,
+        9.1
+      ],
+      [
+        165.0,
+        9.7
+      ],
+      [
+        170.0,
+        9.9
+      ],
+      [
+        175.0,
+        10.0
+      ],
+      [
+        180.0,
+        10.0
+      ]
+    ],
+    "experimental_uncertainty": "Visual estimates from a damaged print; approximately 1–2 dB, larger in narrow minima. No original numerical measurement table exists in the supplied book."
+  },
+  "source_crop": "images/b-0104-fig25.png",
+  "vector_outputs": [
+    "images/recreated/b-0104-fig25.pdf",
+    "images/recreated/b-0104-fig25.svg"
+  ],
+  "text_outside_canvas": []
+}

@@ -1,0 +1,18 @@
+{
+  "asset": "a-0063-fig18",
+  "figure": 18,
+  "method": "schematic",
+  "description": "Luminous disk sector bounded by the first Fresnel zone",
+  "equations": [
+    "7.14",
+    "7.15",
+    "7.16"
+  ],
+  "details": {},
+  "source_crop": "images/a-0063-fig18.png",
+  "vector_outputs": [
+    "images/recreated/a-0063-fig18.pdf",
+    "images/recreated/a-0063-fig18.svg"
+  ],
+  "text_outside_canvas": []
+}

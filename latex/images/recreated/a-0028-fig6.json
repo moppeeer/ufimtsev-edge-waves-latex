@@ -1,0 +1,14 @@
+{
+  "asset": "a-0028-fig6",
+  "figure": 6,
+  "method": "schematic",
+  "description": "Both illuminated wedge faces and their specular-ray boundaries",
+  "equations": [],
+  "details": {},
+  "source_crop": "images/a-0028-fig6.png",
+  "vector_outputs": [
+    "images/recreated/a-0028-fig6.pdf",
+    "images/recreated/a-0028-fig6.svg"
+  ],
+  "text_outside_canvas": []
+}

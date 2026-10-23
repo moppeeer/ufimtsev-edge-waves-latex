@@ -1,0 +1,14 @@
+{
+  "asset": "a-0000-cover-graph",
+  "figure": null,
+  "method": "decorative-geometric-redraw",
+  "description": "Unlabelled cover motif recreated parametrically as a blue field, white grid, rising oscillatory curve and dashed lobes. Decorative reconstruction, not a scientific data plot.",
+  "equations": [],
+  "details": {},
+  "source_crop": "images/a-0000-cover-graph.png",
+  "vector_outputs": [
+    "images/recreated/a-0000-cover-graph.pdf",
+    "images/recreated/a-0000-cover-graph.svg"
+  ],
+  "text_outside_canvas": []
+}

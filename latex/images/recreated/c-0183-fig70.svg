@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="432pt" height="330.067416pt" viewBox="0 0 432 330.067416" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-10-23T22:55:21.995800</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.11.2, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 330.067416 
+L 432 330.067416 
+L 432 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 240.3648 258.112719 
+C 240.3648 249.580569 238.684153 241.131384 235.41904 233.248705 
+C 232.153928 225.366026 227.367849 218.203153 221.334707 212.170012 
+" clip-path="url(#p5097ad9e10)" style="fill: none; stroke: #000000; stroke-width: 0.9; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 175.392 258.112719 
+Q 175.392 147.969222 175.392 39.27917 
+" style="fill: none; stroke: #000000; stroke-width: 1.3; stroke-linecap: round"/>
+    <path d="M 173.392 43.27917 
+L 175.392 39.27917 
+L 177.392 43.27917 
+" style="fill: none; stroke: #000000; stroke-width: 1.3; stroke-linecap: round"/>
+   </g>
+   <g id="text_1">
+    <!-- $\mathbf{e}_x$ -->
+    <g transform="translate(152.1938 33.446095)">
+     <text>
+      <tspan x="0" y="-0.0625" style="font-weight: 700; font-size: 13px; font-family: 'DejaVu Serif'">e</tspan>
+      <tspan x="8.389078" y="1.887494" style="font-style: italic; font-size: 9.1px; font-family: 'DejaVu Serif'">x</tspan>
+     </text>
+    </g>
+   </g>
+   <g id="patch_4">
+    <path d="M 175.392 258.112719 
+Q 274.8816 258.112719 372.917756 258.112719 
+" style="fill: none; stroke: #000000; stroke-width: 1.3; stroke-linecap: round"/>
+    <path d="M 368.917756 256.112719 
+L 372.917756 258.112719 
+L 368.917756 260.112719 
+" style="fill: none; stroke: #000000; stroke-width: 1.3; stroke-linecap: round"/>
+   </g>
+   <g id="text_2">
+    <!-- $\mathbf{e}_\vartheta$ -->
+    <g transform="translate(378.8836 253.733088)">
+     <text>
+      <tspan x="0" y="-0.0625" style="font-weight: 700; font-size: 13px; font-family: 'DejaVu Serif'">e</tspan>
+      <tspan x="8.389078" y="1.887494" style="font-style: italic; font-size: 9.1px; font-family: 'DejaVu Serif'">ϑ</tspan>
+     </text>
+    </g>
+   </g>
+   <g id="patch_5">
+    <path d="M 175.392 258.112719 
+Q 114.48 197.200719 54.59574 137.316459 
+" style="fill: none; stroke: #000000; stroke-width: 1.3; stroke-linecap: round"/>
+    <path d="M 56.009954 141.5591 
+L 54.59574 137.316459 
+L 58.838381 138.730673 
+" style="fill: none; stroke: #000000; stroke-width: 1.3; stroke-linecap: round"/>
+   </g>
+   <g id="text_3">
+    <!-- $\mathbf{e}_\eta$ -->
+    <g transform="translate(30.1748 131.520611)">
+     <text>
+      <tspan x="0" y="-0.0625" style="font-weight: 700; font-size: 13px; font-family: 'DejaVu Serif'">e</tspan>
+      <tspan x="8.389078" y="1.887494" style="font-style: italic; font-size: 9.1px; font-family: 'DejaVu Serif'">η</tspan>
+     </text>
+    </g>
+   </g>
+   <g id="patch_6">
+    <path d="M 175.392 258.112719 
+Q 250.5168 182.987919 324.61386 108.890859 
+" style="fill: none; stroke: #000000; stroke-width: 1.3; stroke-linecap: round"/>
+    <path d="M 320.371219 110.305073 
+L 324.61386 108.890859 
+L 323.199646 113.1335 
+" style="fill: none; stroke: #000000; stroke-width: 1.3; stroke-linecap: round"/>
+   </g>
+   <g id="text_4">
+    <!-- $\mathbf{e}_\tau$ -->
+    <g transform="translate(330.934 103.483488)">
+     <text>
+      <tspan x="0" y="-0.0625" style="font-weight: 700; font-size: 13px; font-family: 'DejaVu Serif'">e</tspan>
+      <tspan x="8.389078" y="1.887494" style="font-style: italic; font-size: 9.1px; font-family: 'DejaVu Serif'">τ</tspan>
+     </text>
+    </g>
+   </g>
+   <g id="text_5">
+    <!-- $45^\circ$ -->
+    <g transform="translate(244.908504 227.663488)">
+     <text>
+      <tspan x="0" y="-0.09375" style="font-size: 12px; font-family: 'DejaVu Serif'">4</tspan>
+      <tspan x="7.634766" y="-0.09375" style="font-size: 12px; font-family: 'DejaVu Serif'">5</tspan>
+      <tspan x="16.971577" y="-5.04975" style="font-size: 8.4px; font-family: 'DejaVu Serif'">∘</tspan>
+     </text>
+    </g>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p5097ad9e10">
+   <rect x="12.96" y="9.902022" width="406.08" height="310.263371"/>
+  </clipPath>
+ </defs>
+</svg>

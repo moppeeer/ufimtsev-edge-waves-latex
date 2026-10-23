@@ -1,0 +1,32 @@
+Independent QA by transcribe_c, 2026-10-21.
+
+Root leaves0198–0216 equations visually compared to original images. Reported phase error in30.04 (leaf0204): both exponentials have -ikz_j(cos(theta)+cos(theta0)), confirmed by repeated32.03. Root handling. External-field e in30.01 reported/root handling. Other equations matched original images, except31.02 psi raised(1) remained uncertain pending clearer copy.
+
+Discovered much clearer independent scan of same1971 translation at National Security Archive, George Washington University:
+https://nsarchive2.gwu.edu/NSAEBB/NSAEBB443/docs/area51_10a.PDF
+https://nsarchive2.gwu.edu/NSAEBB/NSAEBB443/docs/area51_10b.PDF
+https://nsarchive2.gwu.edu/NSAEBB/NSAEBB443/docs/area51_10c.PDF
+Local: tmp/c-crops/alternate-gwu.pdf, alternate-gwu-b.pdf, alternate-gwu-c.pdf.
+Parta57pages: printed1 starts index15, printed42 ends56. Partb71pages: printed43=index0; printed66=index23; printed113=index70.
+Partc113pages, irregular order: index0=114,1=115,2=116,3=116a; indices4..26=117..139; index27=141,28=140,29=142,30=143,31=148,32=146,33=147,34=149,35=150,36=144,37=145; indices38..100=151..213;101=216footnotes,102=214,103=215,104=217,105=218,106..110=219..223. Final2PDFpages are administrative pages. Do not assume uniform offsets.
+All equation supplementation uses rendered images. Text extraction was used only to locate page order and identify equations, never as equation transcription source.
+
+A review: leaf0052 Eqs5.15–5.16 gamma subscript confirmed by enlarged glyph and Figure15 vector; changed4 unclear theta tokens to gamma. Leaf0064 Eq7.18 denominator5 confirmed three times and clearGWUb4; removed uncertainty. ToldA to restore missing minus in prose's second phase factor -exp(i*pi/4), visible clearGWUb4. Leaf0069 clearGWUb9 confirms equations9.01/9.02 including J2 indices; corrected 'smaller interval' to 'angular interval' and lower inequality0<=theta. B handling recovery of entire0083 from clearGWUb23.
+
+C secondpass corrections so far:
+0144 opening condition >>1 not >1.
+0145 Eq22.05 derivative evaluated at h=0, followed by factor h; fixed evaluation placement.
+0149 Eq23.04 denominator8 confirmed clearGWUc18; removed uncertainty.
+0151 Eq23.08 first sign is plus/minus, not minus/plus. Eq23.12 H leading minus confirmed, E leading positive. Corrected/resolved. Page133 inferred from continuous page mapping, no longer marked in document.
+0160/0165–0168: J2(zeta), not J0(zeta), confirmed clearGWU and explicit J2 in8.17/12.11. Corrected12 instances.
+0160/0161/0165–0168: incident amplitudes E_0phi and H_0phi, not x components. Corrected consistently from clear symbols.
+0165 Eq24.19 first bracket has prefixed minus in both E and H formulas; restored. Prose conditions theta<pi/2, theta approximately pi/2 and gamma<<pi/2; corrected order. Final condition gamma approximately pi/2 (gamma<pi/2), theta<<pi/2.
+0167 Eq24.24 second fraction has no prefixed minus; removed transcription error.
+0179 authors Vaynshteyn and Fedorov[71], Ivanov[35], confirmed clearGWUc48. Replaced Bobrov/unclear74. Page161 inferred from mapping, no longer marked.
+0182 and0192 polarizer basis vector is tau, not xi; corrected from clear text and Figure70.
+0190 Eq27.04 second line printed E_theta=H_phi, not H_x; restored printed phi despite possible source inconsistency with26.13. Original and GWU agree.
+0191 Eq27.08 final Sigma_2^1 resolved visually from clearGWUc60; removed uncertainty.
+
+Completed second visual pass of every displayed equation in assigned0138–0197 using clearGWU images with originalArchive images for any clipped margins. C image pages inspected:7–21,25,29–37,48,51–56,58–60,63–66. Equation-free pages had no formulas to recheck; all originally read visually. No unresolved unclear macros remain in this assigned range. Original apparent typos noted in transcribe-c.txt are retained; earlier 'uncertain' entries there are historical and superseded by this review.
+
+Layout QA: inspected allfive12page contacts covering0138–0197 plus full render162/166/184 (leaf161/165/183) to check dense equations. No page-edge clipping found. Corrected minipage top alignment on138/162/183/189 with zero-height top struts; earlier layout wrongly aligned right-column first textline to bottom of leftimage. Current mathematical corrections require final root rerender; no framework changes made.

@@ -1,0 +1,33 @@
+ROOT TRANSCRIPTION AND REVIEW
+
+Original scan leaves0198-0236 were transcribed from page images. Figures73-80
+are cropped raster illustrations; the prose, captions, and every displayed
+equation are editable LaTeX. No page-wide image replacement is used.
+
+All displayed equations on leaves0198-0227 were then compared visually with
+the clearer National Security Archive copy, partc PDFpages68-97 (one-based).
+Independent second readers additionally compared0198-0224 with the original
+scan. Page contents and order follow the supplied Internet Archive scan, not
+the differently ordered pages in the National Security Archive PDFs.
+
+Corrections/resolutions made during review:
+- 30.04: faint phase signs are both negative, confirmed in clearer scan and
+  repeated expression32.03.
+- 30.31: the prefactor is positive. The companion30.35 is negative.
+- 31.02: positive E and psi_-^(0), not a negative sign or superscript(1).
+- 32.13: all previously unclear coefficients and exponents are legible in
+  the clearer scan; the inferred reading was independently confirmed.
+- 32.08: bar on psi, retained consistently with the definition and section33.
+- 33.07: source second row has unbarred g(0) in its denominator and in O(...).
+- 33.08-09: dummy integration variable is sigma.
+- Printed181 reference list [79,90], recovered from clearer scan.
+
+Preserved source details (not silently mathematically corrected):
+- 29.02 and33.16 have redundant scan-side equation-number impressions; the
+  semantic equation is tagged once in the reconstructed typography.
+- 33.11 has ln(i/(gamma ka)) in its prefactor as printed, despite the earlier
+  definition bar g(0)=ln(2i/(gamma ka)).
+- Original printed page labels and separate FOOTNOTE page remain in place.
+
+This is a content-and-pagination transcription. Fonts, line wrapping, and
+within-page spacing are newly typeset rather than pixel copies of the scan.

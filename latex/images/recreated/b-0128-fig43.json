@@ -1,0 +1,23 @@
+{
+  "asset": "b-0128-fig43",
+  "figure": 43,
+  "method": "formula",
+  "description": "Spherical segment scattering at fixed base radius.",
+  "equations": [
+    "19.12",
+    "19.13"
+  ],
+  "details": {
+    "a": 2.75,
+    "ka": "2.75*pi",
+    "k": "pi",
+    "Omega_degrees": 15,
+    "omega": "pi/2-2*atan(l/a)"
+  },
+  "source_crop": "images/b-0128-fig43.png",
+  "vector_outputs": [
+    "images/recreated/b-0128-fig43.pdf",
+    "images/recreated/b-0128-fig43.svg"
+  ],
+  "text_outside_canvas": []
+}

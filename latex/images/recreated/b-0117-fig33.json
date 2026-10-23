@@ -1,0 +1,27 @@
+{
+  "asset": "b-0117-fig33",
+  "figure": 33,
+  "method": "formula",
+  "description": "Cone scattering versus shape of the shadowed face.",
+  "equations": [
+    "17.08",
+    "17.09",
+    "17.04"
+  ],
+  "details": {
+    "omega_degrees": 10,
+    "kl": "10*pi",
+    "k": "pi",
+    "Omega_range_degrees": [
+      0,
+      170
+    ],
+    "upper_axis": "n=1+(omega+Omega)/pi"
+  },
+  "source_crop": "images/b-0117-fig33.png",
+  "vector_outputs": [
+    "images/recreated/b-0117-fig33.pdf",
+    "images/recreated/b-0117-fig33.svg"
+  ],
+  "text_outside_canvas": []
+}

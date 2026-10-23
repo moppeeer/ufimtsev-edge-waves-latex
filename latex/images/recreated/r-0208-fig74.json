@@ -1,0 +1,14 @@
+{
+  "asset": "r-0208-fig74",
+  "figure": 74,
+  "method": "geometric-redraw",
+  "description": "Wire and electromagnetic excitation geometry redrawn with vector paths and mathematical labels.",
+  "equations": [],
+  "details": {},
+  "source_crop": "images/r-0208-fig74.png",
+  "vector_outputs": [
+    "images/recreated/r-0208-fig74.pdf",
+    "images/recreated/r-0208-fig74.svg"
+  ],
+  "text_outside_canvas": []
+}

@@ -1,0 +1,30 @@
+{
+  "asset": "c-0170-fig66",
+  "figure": 66,
+  "method": "formula",
+  "description": "Disk backscattering cross section reconstructed from the published diffraction formulas; experimental traces independently digitized.",
+  "equations": [
+    "12.15",
+    "12.17",
+    "21.22",
+    "21.23",
+    "22.13",
+    "24.25",
+    "24.26",
+    "26.19"
+  ],
+  "details": {
+    "ka": 5,
+    "axis": "10log10 cross section normalized by pi*a^2",
+    "near_axis_join": "Per paragraph following24.26, smoothly join12.15 to24.25 over0–20degrees. smoothstep makes the switch explicit and reproducible.",
+    "experimental_control_points": [],
+    "interpolation": "PCHIP for experimental traces only",
+    "precision": "Experimental traces are approximate visual grid readings, not original measurement tables."
+  },
+  "source_crop": "images/c-0170-fig66.png",
+  "vector_outputs": [
+    "images/recreated/c-0170-fig66.pdf",
+    "images/recreated/c-0170-fig66.svg"
+  ],
+  "text_outside_canvas": []
+}

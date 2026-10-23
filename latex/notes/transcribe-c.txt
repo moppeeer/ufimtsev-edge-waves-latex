@@ -1,0 +1,13 @@
+Visual transcription notes, leaves 0138–0197.
+All page text and equations are transcribed from viewed source-page images. No OCR text was used.
+Leaf 0148, printed130: original text cites (20.12), preserved; likely intended (22.12).
+Leaf 0149, printed131, equation23.04: denominator in last coefficient is degraded. Best reading 8, marked unclear in LaTeX. First coefficient is read as 2 sqrt(ka).
+Leaf 0150, printed132: caption cites Equation(22.05) and prose cites Equations(22.02), preserved as printed; contextual references likely23.05/23.02.
+Leaf0151: extremely faded scan. Printed footer not visible; label133 inferred from neighboring leaves and marked unclear. Equation23.08 leading sign best read minus/plus and marked. Equation23.12 leading signs best read minus and marked. All other symbols transcribed by visual enlargement; this whole leaf merits independent verification against a better scan.
+Leaf0165 printed147 also highly faded. Relation after 'region' best read vartheta approximately pi/2; marked unclear. Equations24.17–24.19 visually read with neighboring definitions.
+Leaf0166 printed148: opening condition printed phi=plus/minus /2 omits pi; preserved. Leaf0167 printed149: both displayed field equations carry duplicate number24.23; preserved.
+Leaf0179: footer invisible, page161 inferred and marked. Ivanov reference best read74; marked unclear because scan is degraded.
+Leaf0184 printed166: duplicate equation26.10 labels preserved. Leaf0186 printed168: prose gives Sigma_minus without factor1/2 despite definition26.05; preserved as printed.
+Leaf0189 printed171 equation27.01: second exponential visibly has sin(alpha) rather than sin(gamma); preserved. Component notation read 0gamma (H_0gamma/E_0gamma). Leaf0191 equation27.08 final Sigma superscript1 subscript best read2; glyph degraded and marked unclear, consistent with27.09.
+Leaf0194 equation28.02 and leaf0197 equation28.13: external-field superscript e confirmed by root from clearer typeset reference on leaf0209; uncertainty resolved. Equation28.02 RHS is calligraphic E times delta(z), not plain E.
+Completed all60 leaves0138–0197. All source images individually viewed; captions and prose typed, equations semantic LaTeX; only diagrams/plots are raster crops.

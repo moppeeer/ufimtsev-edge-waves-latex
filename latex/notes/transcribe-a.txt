@@ -1,0 +1,15 @@
+Transcription from source page images, leaves 0018-0077.
+Leaf 0041, printed p. 24, paragraph 2: scan reads "nonuniform part of the current" although this section concerns the physical-optics uniform current. Preserved as printed.
+Leaf 0051, printed p. 34, Eq. 5.10: source explicitly includes E_z=-H_phi and H_z=E_phi although Eq. 5.13 has sin(gamma) factors. Preserved source, no silent mathematical correction.
+Leaf 0052, printed p. 35, Eqs. 5.15-5.16: resolved against clearer GWU scan by agent C: transverse subscript is gamma. Corrected.
+Leaf 0063, printed p. 46: text says "Fermi principle"; preserved although likely intended Fermat principle.
+Leaf 0064, printed p. 47, Eq. 7.18 and following paragraph: phase fraction denominator confirmed 5 against clearer GWU scan. Corrected accompanying prose factor to -exp(i*pi/4) as printed.
+Leaf 0065, printed p. 48, section 8 title: scan explicitly says "Uniform Part" although the section discusses nonuniform current. Preserved as printed.
+Leaf 0069: page is very faded; all content read in enlarged image crops. Printed footer/page numeral not legible in supplied scan; page label 52 follows directly between visible printed 51 and 53. No OCR used.
+Leaf 0004: author line reads "Ufintsev" (n), preserved as printed, unlike other leaves' "Ufimtsev".
+Leaf 0005: handwritten pagination reads "ib" (possibly "1b"); rendered as ib.
+Reference14 pages resolved as260-269 from clearGWU scan; reference50 volume25/1; reference73 resolved as"декартовых" and pages1483-1495. Several other bibliography digits/names corrected on second visual pass against clearGWU pages107-110.
+Leaf0237 reference5 surname resolved asПотехин: clearerGWU glyph plus primary scientific-library catalogueGPNTB and InstituteofCosmophysicalResearchandAeronomy bibliography confirm А.И.Потехин, exact title and1948. Primary corroboration:https://ikfia.ysn.ru/elektrichestvo-magnetizm-elektrodinamika/ . No remainingunclear markers in assignedpages.
+Leaf 0240 printed page numeral is nearly lost in scan; label222 inferred between visible221 and223.
+Second equation pass: all displayed equations on printed pages1-60 independently reread from clearer GWU scanned PDFs at200dpi. Corrected 3.04 first integration variable beta and closed delta bounds, p9 closed incidence-angle bounds, 9.04 azimuthal E_phi/H_phi parity, 10.05 nonnegative square root, 11.12 original k (not k1); restored original unindexed eta in current arguments/differentials in8.06/8.09-11 and11.10-13. No OCR used.
+Layout QA: all83 assigned pages inspected on rendered contact sheets, report form inspected full-size; fixed top alignment of figure/text columns, reflowed0067 equations, removed stray equation fragment from Figure23 crop.

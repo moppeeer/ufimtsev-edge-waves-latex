@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="432pt" height="512pt" viewBox="0 0 432 512" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-10-23T22:55:20.111366</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.11.2, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 512 
+L 432 512 
+L 432 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 187.5744 313.7536 
+C 187.5744 296.904517 183.958352 280.25001 176.971151 264.917997 
+C 169.98395 249.585984 159.786975 235.930578 147.070811 224.876585 
+" clip-path="url(#pa8549d2d61)" style="fill: none; stroke: #000000; stroke-width: 0.9; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 244.4256 313.7536 
+C 244.4256 303.588503 243.537965 293.442794 241.772815 283.432128 
+C 240.007664 273.421462 237.371731 263.584024 233.895063 254.031958 
+" clip-path="url(#pa8549d2d61)" style="fill: none; stroke: #000000; stroke-width: 0.9; stroke-linejoin: miter"/>
+   </g>
+   <g id="line2d_1">
+    <defs>
+     <path id="m617fc287ec" d="M 0 1.5 
+C 0.397805 1.5 0.77937 1.341951 1.06066 1.06066 
+C 1.341951 0.77937 1.5 0.397805 1.5 0 
+C 1.5 -0.397805 1.341951 -0.77937 1.06066 -1.06066 
+C 0.77937 -1.341951 0.397805 -1.5 0 -1.5 
+C -0.397805 -1.5 -0.77937 -1.341951 -1.06066 -1.06066 
+C -1.341951 -0.77937 -1.5 -0.397805 -1.5 0 
+C -1.5 0.397805 -1.341951 0.77937 -1.06066 1.06066 
+C -0.77937 1.341951 -0.397805 1.5 0 1.5 
+z
+" style="stroke: #000000"/>
+    </defs>
+    <g clip-path="url(#pa8549d2d61)">
+     <use xlink:href="#m617fc287ec" x="69.8112" y="150.1184" style="stroke: #000000"/>
+    </g>
+   </g>
+   <g id="line2d_2">
+    <g clip-path="url(#pa8549d2d61)">
+     <use xlink:href="#m617fc287ec" x="69.8112" y="448.512" style="stroke: #000000"/>
+    </g>
+   </g>
+   <g id="line2d_3">
+    <path d="M 69.8112 313.7536 
+L 317.52 53.8624 
+" clip-path="url(#pa8549d2d61)" style="fill: none; stroke: #000000; stroke-width: 1.4; stroke-linecap: square"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 69.8112 467.7632 
+Q 69.8112 260.8128 69.8112 55.427648 
+" style="fill: none; stroke: #000000; stroke-width: 1.4; stroke-linecap: round"/>
+    <path d="M 67.8112 59.427648 
+L 69.8112 55.427648 
+L 71.8112 59.427648 
+" style="fill: none; stroke: #000000; stroke-width: 1.4; stroke-linecap: round"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 29.2032 313.7536 
+Q 211.9392 313.7536 393.109952 313.7536 
+" style="fill: none; stroke: #000000; stroke-width: 1.4; stroke-linecap: round"/>
+    <path d="M 389.109952 311.7536 
+L 393.109952 313.7536 
+L 389.109952 315.7536 
+" style="fill: none; stroke: #000000; stroke-width: 1.4; stroke-linecap: round"/>
+   </g>
+   <g id="text_1">
+    <!-- $z$ -->
+    <g transform="translate(395.291 331.568953)">
+     <text>
+      <tspan x="0" y="-0.921875" style="font-style: italic; font-size: 13px; font-family: 'DejaVu Serif'">z</tspan>
+     </text>
+    </g>
+   </g>
+   <g id="text_2">
+    <!-- $y$ -->
+    <g transform="translate(78.2886 47.613753)">
+     <text>
+      <tspan x="0" y="-0.25" style="font-style: italic; font-size: 13px; font-family: 'DejaVu Serif'">y</tspan>
+     </text>
+    </g>
+   </g>
+   <g id="text_3">
+    <!-- $a$ -->
+    <g transform="translate(46.368 153.235588)">
+     <text>
+      <tspan x="0" y="-0.59375" style="font-style: italic; font-size: 12px; font-family: 'DejaVu Serif'">a</tspan>
+     </text>
+    </g>
+   </g>
+   <g id="text_4">
+    <!-- $-a$ -->
+    <g transform="translate(36.288 451.629188)">
+     <text>
+      <tspan x="0" y="-0.59375" style="font-size: 12px; font-family: 'DejaVu Serif'">−</tspan>
+      <tspan x="10.054688" y="-0.59375" style="font-style: italic; font-size: 12px; font-family: 'DejaVu Serif'">a</tspan>
+     </text>
+    </g>
+   </g>
+   <g id="text_5">
+    <!-- $R$ -->
+    <g transform="translate(183.0144 172.486787)">
+     <text>
+      <tspan x="0" y="-0.25" style="font-style: italic; font-size: 12px; font-family: 'DejaVu Serif'">R</tspan>
+     </text>
+    </g>
+   </g>
+   <g id="patch_6">
+    <path d="M 69.8112 313.7536 
+Q 203.8176 268.032 336.342604 222.815837 
+" style="fill: none; stroke: #000000; stroke-width: 1.4; stroke-linecap: round"/>
+    <path d="M 331.911064 222.214626 
+L 336.342604 222.815837 
+L 333.202712 226.000342 
+" style="fill: none; stroke: #000000; stroke-width: 1.4; stroke-linecap: round"/>
+   </g>
+   <g id="text_6">
+    <!-- $\mathbf{n}$ -->
+    <g transform="translate(329.3832 206.176388)">
+     <text>
+      <tspan x="0" y="-0.59375" style="font-weight: 700; font-size: 12px; font-family: 'DejaVu Serif'">n</tspan>
+     </text>
+    </g>
+   </g>
+   <g id="text_7">
+    <!-- $\vartheta$ -->
+    <g transform="translate(199.441139 255.94769)">
+     <text>
+      <tspan x="0" y="-0.703125" style="font-style: italic; font-size: 12px; font-family: 'DejaVu Serif'">ϑ</tspan>
+     </text>
+    </g>
+   </g>
+   <g id="text_8">
+    <!-- $\gamma$ -->
+    <g transform="translate(251.929744 284.123597)">
+     <text>
+      <tspan x="0" y="-0.765625" style="font-style: italic; font-size: 12px; font-family: 'DejaVu Serif'">γ</tspan>
+     </text>
+    </g>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="pa8549d2d61">
+   <rect x="12.96" y="15.36" width="406.08" height="481.28"/>
+  </clipPath>
+ </defs>
+</svg>

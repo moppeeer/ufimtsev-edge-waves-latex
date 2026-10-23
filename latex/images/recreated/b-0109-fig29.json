@@ -1,0 +1,16 @@
+{
+  "asset": "b-0109-fig29",
+  "figure": 29,
+  "method": "vector schematic",
+  "description": "Local dihedral wedge, observation ray and local cylindrical angle; hatching restored from the clearer GWU scan.",
+  "equations": [],
+  "details": {
+    "construction": "Independently redrawn paths, dimension arrows, angle arcs and editable labels from the source figure."
+  },
+  "source_crop": "images/b-0109-fig29.png",
+  "vector_outputs": [
+    "images/recreated/b-0109-fig29.pdf",
+    "images/recreated/b-0109-fig29.svg"
+  ],
+  "text_outside_canvas": []
+}

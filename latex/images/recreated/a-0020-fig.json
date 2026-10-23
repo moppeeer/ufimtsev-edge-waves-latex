@@ -1,0 +1,16 @@
+{
+  "asset": "a-0020-fig",
+  "figure": 1,
+  "method": "schematic",
+  "description": "Wedge, source and observation directions, and annular Green integration contour",
+  "equations": [
+    "1.10"
+  ],
+  "details": {},
+  "source_crop": "images/a-0020-fig.png",
+  "vector_outputs": [
+    "images/recreated/a-0020-fig.pdf",
+    "images/recreated/a-0020-fig.svg"
+  ],
+  "text_outside_canvas": []
+}

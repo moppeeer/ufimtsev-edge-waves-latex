@@ -1,0 +1,14 @@
+{
+  "asset": "a-0067-fig19",
+  "figure": 19,
+  "method": "schematic",
+  "description": "Disk and auxiliary half-plane tangent at y1=a, x1=0",
+  "equations": [],
+  "details": {},
+  "source_crop": "images/a-0067-fig19.png",
+  "vector_outputs": [
+    "images/recreated/a-0067-fig19.pdf",
+    "images/recreated/a-0067-fig19.svg"
+  ],
+  "text_outside_canvas": []
+}

@@ -1,0 +1,10 @@
+\begin{scanpage}{0034}{17}
+\[v(r,\psi)=e^{-ikr\cos\psi}\frac{e^{-i\frac\pi4}}{\sqrt\pi}\times\int_{\infty\cos\frac\psi2}^{\sqrt{2kr}\cos\frac\psi2}e^{iq^2}\,dq,\tag{2.18}\]
+which completely agrees with the rigorous solution. Actually, with $\alpha=2\pi$, when the wedge is transformed to a half-plane, integral (1.30) equals
+\[v(r,\psi)=-\frac{i}{4\pi}\int_{D_0}\frac{e^{ikr\cos\zeta}}{\cos\frac{\psi+\zeta}{2}}\,d\zeta\tag{2.19}\]
+and it may be reduced to a Fresnel integral. For this purpose, let us divide the contour $D_0$ into two parts by the point $\zeta=0$. Summing the integrals over these parts of the contour, we find that
+\[\begin{aligned}v(r,\psi)&=-\frac{i}{4\pi}\int_0^{\frac\pi2-i\infty}e^{ikr\cos\zeta}\left(\frac1{\cos\frac{\psi+\zeta}{2}}+\frac1{\cos\frac{\psi-\zeta}{2}}\right)d\zeta=\\&=-\frac i\pi\cos\frac\psi2\int_0^{\frac\pi2-i\infty}\frac{e^{ikr\cos\zeta}\cos\frac\zeta2}{\cos\psi+\cos\zeta}\,d\zeta.\end{aligned}\]
+Now changing to a new integration variable $s=\sqrt2e^{i\frac\pi4}\sin\frac\zeta2$ and taking into account Equation (2.09), we obtain
+\[v(r,\psi)=-\frac{\sqrt2}{\pi}\cos\frac\psi2e^{i(kr-\frac\pi4)}\int_0^\infty\frac{e^{-krs^2}}{s^2-is_0^2}\,ds.\tag{2.20}\]
+The integral here was already calculated by us. Turning to Equation (2.11), we arrive at Expression (2.18) which --- together with relationships (1.25), (1.26) and (1.31) --- give us the rigorous solution to the problem of the diffraction of plane waves by an ideally conducting half-plane.
+\end{scanpage}

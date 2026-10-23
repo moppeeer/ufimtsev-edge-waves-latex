@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+message: "Please cite the original author and this reconstructed edition."
+title: "Method of Edge Waves in the Physical Theory of Diffraction: Editable LaTeX Reconstruction"
+type: book
+authors:
+  - family-names: "Ufimtsev"
+    given-names: "Pyotr Yakovlevich"
+version: "1.0.0"
+date-released: "2026-10-23"
+repository-code: "https://github.com/moppeeer/ufimtsev-edge-waves-latex"
+url: "https://github.com/moppeeer/ufimtsev-edge-waves-latex"
+abstract: >-
+  A 242-page editable LaTeX reconstruction of the publicly released U.S. Air
+  Force translation, with 80 reproducible Python-generated vector figures.
+keywords:
+  - physical theory of diffraction
+  - electromagnetic scattering
+  - radar cross section
+  - stealth aviation
+  - F-117
+  - LaTeX
+

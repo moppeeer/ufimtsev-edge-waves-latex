@@ -1,0 +1,16 @@
+{
+  "asset": "b-0118-fig35",
+  "figure": 35,
+  "method": "vector schematic",
+  "description": "Truncated conical surface and its two radii and axial intervals.",
+  "equations": [],
+  "details": {
+    "construction": "Independently redrawn paths, dimension arrows, angle arcs and editable labels from the source figure."
+  },
+  "source_crop": "images/b-0118-fig35.png",
+  "vector_outputs": [
+    "images/recreated/b-0118-fig35.pdf",
+    "images/recreated/b-0118-fig35.svg"
+  ],
+  "text_outside_canvas": []
+}

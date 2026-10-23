@@ -1,0 +1,14 @@
+{
+  "asset": "a-0053-fig16",
+  "figure": 16,
+  "method": "schematic",
+  "description": "Strip cross-section, incidence normal and observation coordinates",
+  "equations": [],
+  "details": {},
+  "source_crop": "images/a-0053-fig16.png",
+  "vector_outputs": [
+    "images/recreated/a-0053-fig16.pdf",
+    "images/recreated/a-0053-fig16.svg"
+  ],
+  "text_outside_canvas": []
+}

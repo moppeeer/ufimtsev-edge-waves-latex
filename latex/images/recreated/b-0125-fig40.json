@@ -1,0 +1,16 @@
+{
+  "asset": "b-0125-fig40",
+  "figure": 40,
+  "method": "vector schematic",
+  "description": "Truncated paraboloid generatrix: radii, tangents and axial lengths.",
+  "equations": [],
+  "details": {
+    "construction": "Independently redrawn paths, dimension arrows, angle arcs and editable labels from the source figure."
+  },
+  "source_crop": "images/b-0125-fig40.png",
+  "vector_outputs": [
+    "images/recreated/b-0125-fig40.pdf",
+    "images/recreated/b-0125-fig40.svg"
+  ],
+  "text_outside_canvas": []
+}

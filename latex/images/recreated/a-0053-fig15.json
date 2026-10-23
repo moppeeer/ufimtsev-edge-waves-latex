@@ -1,0 +1,17 @@
+{
+  "asset": "a-0053-fig15",
+  "figure": 15,
+  "method": "schematic",
+  "description": "Cone of diffracted rays and local transverse basis",
+  "equations": [
+    "5.15",
+    "5.16"
+  ],
+  "details": {},
+  "source_crop": "images/a-0053-fig15.png",
+  "vector_outputs": [
+    "images/recreated/a-0053-fig15.pdf",
+    "images/recreated/a-0053-fig15.svg"
+  ],
+  "text_outside_canvas": []
+}

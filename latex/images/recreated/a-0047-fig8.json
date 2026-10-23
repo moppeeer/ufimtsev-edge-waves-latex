@@ -1,0 +1,25 @@
+{
+  "asset": "a-0047-fig8",
+  "figure": 8,
+  "method": "analytic",
+  "description": "Polar magnitude diagrams of the nonuniform-current diffraction coefficients",
+  "equations": [
+    "4.07",
+    "4.08",
+    "4.09",
+    "4.10"
+  ],
+  "details": {
+    "alpha_degrees": 360,
+    "incident_angle_degrees": 150,
+    "monostatic": false,
+    "radius": "absolute coefficient; signs encoded by solid/dashed/dash-dot styles",
+    "singularities": "Removable cancellations avoided by offset sampling and finite-value interpolation only."
+  },
+  "source_crop": "images/a-0047-fig8.png",
+  "vector_outputs": [
+    "images/recreated/a-0047-fig8.pdf",
+    "images/recreated/a-0047-fig8.svg"
+  ],
+  "text_outside_canvas": []
+}

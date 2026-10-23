@@ -1,0 +1,62 @@
+{
+  "asset": "b-0117-fig32",
+  "figure": 32,
+  "method": "mixed: formula and manually digitized experiment",
+  "description": "Finite cone deformed into a disk at fixed base radius.",
+  "equations": [
+    "17.08",
+    "17.09",
+    "17.10"
+  ],
+  "details": {
+    "ka": "2.75*pi",
+    "k": "pi",
+    "a": 2.75,
+    "Omega_degrees": 90,
+    "l": "a*cot(omega)",
+    "experimental_points_omega_deg_dB": [
+      [
+        10,
+        11.8
+      ],
+      [
+        20,
+        12.1
+      ],
+      [
+        30,
+        13.9
+      ],
+      [
+        35,
+        14.4
+      ],
+      [
+        45,
+        16.3
+      ],
+      [
+        55,
+        17.0
+      ],
+      [
+        60,
+        19.0
+      ],
+      [
+        70,
+        21.7
+      ],
+      [
+        80,
+        27.5
+      ]
+    ]
+  },
+  "source_crop": "images/b-0117-fig32.png",
+  "vector_outputs": [
+    "images/recreated/b-0117-fig32.pdf",
+    "images/recreated/b-0117-fig32.svg"
+  ],
+  "text_outside_canvas": []
+}

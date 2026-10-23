@@ -1,0 +1,38 @@
+{
+  "asset": "c-0158-fig57",
+  "figure": 57,
+  "method": "formula",
+  "description": "Strip scattering magnitudes, with independently redrawn axes and comparison curves.",
+  "equations": [
+    "20.04",
+    "20.05",
+    "21.22",
+    "21.23",
+    "22.13",
+    "23.02",
+    "23.10",
+    "23.13",
+    "23.14",
+    "23.15"
+  ],
+  "details": {
+    "ka": 5.291502622129181,
+    "alpha_degrees": -90.0,
+    "backscatter": false,
+    "drawn_computed_curves": [
+      "e2"
+    ],
+    "unsuffixed_curve": {
+      "label": "e",
+      "provenance": "Calculated secondary-diffraction approximation (subscript2), displayed under the original unsuffixed figure label. No new rigorous solution is claimed; the source reports close agreement."
+    },
+    "rigorous_reference": null,
+    "endpoint_evaluation": "One-sided numerical angular limit, 2e-6 radians; removable forward singularity evaluated at1e-6 radians."
+  },
+  "source_crop": "images/c-0158-fig57.png",
+  "vector_outputs": [
+    "images/recreated/c-0158-fig57.pdf",
+    "images/recreated/c-0158-fig57.svg"
+  ],
+  "text_outside_canvas": []
+}

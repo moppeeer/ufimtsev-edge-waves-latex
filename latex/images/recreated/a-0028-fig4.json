@@ -1,0 +1,18 @@
+{
+  "asset": "a-0028-fig4",
+  "figure": 4,
+  "method": "analytic",
+  "description": "Steepest descent contour with asymptotes at Re(zeta)=+/-pi/2",
+  "equations": [
+    "1.30"
+  ],
+  "details": {
+    "curve": "Im(zeta)=-asinh(tan(Re(zeta)))"
+  },
+  "source_crop": "images/a-0028-fig4.png",
+  "vector_outputs": [
+    "images/recreated/a-0028-fig4.pdf",
+    "images/recreated/a-0028-fig4.svg"
+  ],
+  "text_outside_canvas": []
+}

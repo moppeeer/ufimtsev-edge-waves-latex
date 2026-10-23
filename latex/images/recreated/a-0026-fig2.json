@@ -1,0 +1,16 @@
+{
+  "asset": "a-0026-fig2",
+  "figure": 2,
+  "method": "schematic",
+  "description": "Translated Sommerfeld integration paths and alternating convergence half-strips",
+  "equations": [
+    "1.27"
+  ],
+  "details": {},
+  "source_crop": "images/a-0026-fig2.png",
+  "vector_outputs": [
+    "images/recreated/a-0026-fig2.pdf",
+    "images/recreated/a-0026-fig2.svg"
+  ],
+  "text_outside_canvas": []
+}

@@ -1,0 +1,17 @@
+{
+  "asset": "a-0026-fig3",
+  "figure": 3,
+  "method": "schematic",
+  "description": "Sommerfeld contour C and deformation D through the saddle points",
+  "equations": [
+    "1.28",
+    "1.29"
+  ],
+  "details": {},
+  "source_crop": "images/a-0026-fig3.png",
+  "vector_outputs": [
+    "images/recreated/a-0026-fig3.pdf",
+    "images/recreated/a-0026-fig3.svg"
+  ],
+  "text_outside_canvas": []
+}

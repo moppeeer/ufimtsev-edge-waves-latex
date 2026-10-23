@@ -1,0 +1,16 @@
+{
+  "asset": "b-0109-fig28",
+  "figure": 28,
+  "method": "vector schematic",
+  "description": "Conical body: axial length, both slant lengths, rim radius and illuminated/shadowed face angles.",
+  "equations": [],
+  "details": {
+    "construction": "Independently redrawn paths, dimension arrows, angle arcs and editable labels from the source figure."
+  },
+  "source_crop": "images/b-0109-fig28.png",
+  "vector_outputs": [
+    "images/recreated/b-0109-fig28.pdf",
+    "images/recreated/b-0109-fig28.svg"
+  ],
+  "text_outside_canvas": []
+}

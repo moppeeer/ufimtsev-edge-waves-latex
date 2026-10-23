@@ -1,0 +1,71 @@
+{
+  "asset": "a-0073-fig21",
+  "figure": 21,
+  "method": "mixed",
+  "description": "Disk diffraction magnitude/phase at ka=5: analytic physical optics and edge-wave approximation with manually digitized rigorous reference",
+  "equations": [
+    "7.11",
+    "9.03",
+    "9.05",
+    "9.07"
+  ],
+  "details": {
+    "analytic_curves": [
+      "dash-dot physical-optics magnitude",
+      "dashed edge-wave magnitude and phase"
+    ],
+    "digitized_curves": [
+      "solid rigorous-theory magnitude",
+      "solid rigorous-theory phase"
+    ],
+    "digitized_control_points": {
+      "theta": [
+        0,
+        10,
+        20,
+        30,
+        35,
+        40,
+        45,
+        50,
+        60,
+        75,
+        90
+      ],
+      "magnitude": [
+        1.0,
+        0.91,
+        0.675,
+        0.35,
+        0.23,
+        0.17,
+        0.16,
+        0.154,
+        0.148,
+        0.145,
+        0.145
+      ],
+      "phase": [
+        1,
+        4,
+        10,
+        18,
+        32,
+        56,
+        82,
+        106,
+        124,
+        132,
+        134
+      ]
+    },
+    "digitization": "Manual visual readings of source grid, reflected about90 degrees and PCHIP-interpolated. Source does not supply numerical reference34 data; these solid curves are approximate reconstructions, not new exact computations.",
+    "phase_display": "Magnitude of phase; right-half V2 phase shown with180-degree branch adjustment as source labels."
+  },
+  "source_crop": "images/a-0073-fig21.png",
+  "vector_outputs": [
+    "images/recreated/a-0073-fig21.pdf",
+    "images/recreated/a-0073-fig21.svg"
+  ],
+  "text_outside_canvas": []
+}

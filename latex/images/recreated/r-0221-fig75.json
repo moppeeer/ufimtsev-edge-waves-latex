@@ -1,0 +1,46 @@
+{
+  "asset": "r-0221-fig75",
+  "figure": 75,
+  "method": "mixed-formula-and-digitized",
+  "description": "Dashed curve evaluated from33.04; solid electrostatic-cylinder result of reference92 digitized from the printed curve.",
+  "equations": [
+    "33.04"
+  ],
+  "details": {
+    "reference_anchors": {
+      "l": [
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16
+      ],
+      "D": [
+        0.33,
+        0.301,
+        0.276,
+        0.257,
+        0.242,
+        0.229,
+        0.219,
+        0.21,
+        0.203,
+        0.196,
+        0.19
+      ]
+    },
+    "digitization": "Visual control points; not original experimental or tabulated data."
+  },
+  "source_crop": "images/r-0221-fig75.png",
+  "vector_outputs": [
+    "images/recreated/r-0221-fig75.pdf",
+    "images/recreated/r-0221-fig75.svg"
+  ],
+  "text_outside_canvas": []
+}

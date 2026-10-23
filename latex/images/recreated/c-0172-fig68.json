@@ -1,0 +1,186 @@
+{
+  "asset": "c-0172-fig68",
+  "figure": 68,
+  "method": "mixed",
+  "description": "Disk normal-incidence amplitude and phase, computed approximations with independently digitized rigorous-reference traces.",
+  "equations": [
+    "7.11",
+    "9.03",
+    "9.05",
+    "9.07",
+    "24.20",
+    "24.21"
+  ],
+  "details": {
+    "ka": 5,
+    "curve1": "Published rigorous reference manually digitized from scan grid",
+    "curve2": "Physical optics,7.11 (amplitude)",
+    "curve3": "Primary diffraction,9.03/9.05",
+    "curve4": "Secondary diffraction,24.20/24.21 with near-axis join recommended in24",
+    "rigorous_amplitude_control_points": [
+      [
+        0,
+        1.04
+      ],
+      [
+        10,
+        0.91
+      ],
+      [
+        20,
+        0.67
+      ],
+      [
+        30,
+        0.35
+      ],
+      [
+        40,
+        0.16
+      ],
+      [
+        50,
+        0.11
+      ],
+      [
+        60,
+        0.075
+      ],
+      [
+        70,
+        0.04
+      ],
+      [
+        80,
+        0.018
+      ],
+      [
+        90,
+        0
+      ],
+      [
+        100,
+        0.018
+      ],
+      [
+        110,
+        0.04
+      ],
+      [
+        120,
+        0.075
+      ],
+      [
+        130,
+        0.11
+      ],
+      [
+        140,
+        0.16
+      ],
+      [
+        150,
+        0.35
+      ],
+      [
+        160,
+        0.67
+      ],
+      [
+        170,
+        0.91
+      ],
+      [
+        180,
+        1.04
+      ]
+    ],
+    "rigorous_phase_control_points_degrees": [
+      [
+        0,
+        -3
+      ],
+      [
+        10,
+        -2
+      ],
+      [
+        20,
+        5
+      ],
+      [
+        30,
+        20
+      ],
+      [
+        40,
+        65
+      ],
+      [
+        50,
+        110
+      ],
+      [
+        60,
+        128
+      ],
+      [
+        70,
+        135
+      ],
+      [
+        80,
+        138
+      ],
+      [
+        90,
+        138
+      ],
+      [
+        100,
+        138
+      ],
+      [
+        110,
+        135
+      ],
+      [
+        120,
+        128
+      ],
+      [
+        130,
+        110
+      ],
+      [
+        140,
+        65
+      ],
+      [
+        150,
+        20
+      ],
+      [
+        160,
+        5
+      ],
+      [
+        170,
+        -2
+      ],
+      [
+        180,
+        -3
+      ]
+    ],
+    "interpolation": "PCHIP for curve1; computed complex amplitudes for3/4",
+    "near_axis_join_degrees": 22,
+    "phase_convention": "For V2 second hemisphere add180degrees, as annotated in original."
+  },
+  "source_crop": "images/c-0172-fig68.png",
+  "vector_outputs": [
+    "images/recreated/c-0172-fig68.pdf",
+    "images/recreated/c-0172-fig68.svg"
+  ],
+  "text_outside_canvas": []
+}

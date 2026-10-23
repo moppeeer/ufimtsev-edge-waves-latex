@@ -1,0 +1,18 @@
+{
+  "asset": "a-0077-fig23",
+  "figure": 23,
+  "method": "schematic",
+  "description": "Auxiliary half-plane and projected observation coordinates for oblique incidence",
+  "equations": [
+    "11.06",
+    "11.10",
+    "11.14"
+  ],
+  "details": {},
+  "source_crop": "images/a-0077-fig23.png",
+  "vector_outputs": [
+    "images/recreated/a-0077-fig23.pdf",
+    "images/recreated/a-0077-fig23.svg"
+  ],
+  "text_outside_canvas": []
+}

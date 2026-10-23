@@ -1,0 +1,22 @@
+{
+  "asset": "b-0105-fig27",
+  "figure": 27,
+  "method": "formula",
+  "description": "Physical-optics scattering by the cylindrical lateral surface.",
+  "equations": [
+    "13.25",
+    "13.23"
+  ],
+  "details": {
+    "ka": "pi",
+    "kl": "10*pi",
+    "normalization": "sigma/(pi*a^2)",
+    "source_discrepancy": "Original caption cites interpolation13.26. The printed monotonically rising lobe envelope instead matches asymptotic13.25, evaluated here. Direct13.26 produces a Bessel-envelope dip near140 degrees absent from the original plot. Original book caption is preserved."
+  },
+  "source_crop": "images/b-0105-fig27.png",
+  "vector_outputs": [
+    "images/recreated/b-0105-fig27.pdf",
+    "images/recreated/b-0105-fig27.svg"
+  ],
+  "text_outside_canvas": []
+}

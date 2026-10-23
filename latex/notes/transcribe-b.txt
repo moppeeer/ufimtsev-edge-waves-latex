@@ -1,0 +1,26 @@
+Transcription and review: source leaves0078–0137 (60 leaves).
+
+All60 source images were read individually. Prose and equations are editable LaTeX;23 figure assets contain only figures and intrinsic labels, with captions typed separately. Figure crops visually checked together in tmp/b-assets-contact.png.
+
+SECOND EQUATION PASS COMPLETE: all displayed equations in leaves0078–0137 were checked against the independent, clearer GWU National Security Archive scan discovered by agent C:
+https://nsarchive2.gwu.edu/NSAEBB/NSAEBB443/docs/area51_10b.PDF
+https://nsarchive2.gwu.edu/NSAEBB/NSAEBB443/docs/area51_10c.PDF
+Local sources tmp/c-crops/alternate-gwu-b.pdf and alternate-gwu-c.pdf; review renderings tmp/b-gwu-review/. Part b zero-based page23 is printed66/original0083. Part b printed61–113 = zero-based indices18–70. Part c begins printed114, includes116a, and original0137/printed119 is zero-based index6.
+
+Clear-source corrections made: local x_1/x_2 coordinate subscripts in11.16–11.37 (not z_1/z_2); shared alpha_1,k_1,r_1 coordinates in second-half-plane formulas; phi_1 and phi_1^0 on RHS11.25 (independent second reader A agreed); signs of f(1),g(1),f(2) in12.03; scalar function f(psi) in13.10–13.13; z rather than zeta in current exponents17.01,18.01,19.01; capitalTheta local angle19.01; Q* inFigure46 caption.
+
+FULLY RECOVERED original0083/printed66: clear GWU image confirms E_x=H_theta in11.38, E_theta=-H_x=-E_0theta(...) in11.39, reference8.16, numerical conclusion 'for values of gamma not exceeding55 degrees ... at a minimum ka times larger', full section12 heading, and all previously missing opening prose. No placeholder remains.
+Other original dropout ambiguities resolved by clear GWU images:16.07 denominator k_1r_1 and signed exponents;16.18 applicability uses capitalTheta, omega<Theta<=pi; printed95 prose uses 'Using the resulting relationships...' and 'We shall assume'; printed106 numerical values ka=2pi and44dB. These are now ordinary source-supported text without unclear markers.
+
+Apparent source peculiarities preserved:
+-11.24 prints k_1(sin phi_2-sin phi_2^0)=-sqrt(lambda^2+mu^2), with no k multiplier on RHS. Both scans agree.
+-11.25 LHS uses phi_2/phi_2^0 but RHS uses phi_1/phi_1^0; preserved as printed (also consistent with changing coordinate systems).
+-16.07 prints k_1 in denominator while phase uses k; preserved.
+-17.06 prints sigma=pi a |Sigma|^2 without square on a; both scans agree, though17.13 has pi a^2.
+-17.12 prints positive tg omega exp(2ikl), whereas17.09 suggests a negative limiting value; preserved.
+-Printed105 prose refers to Figure36 for the deformation graph, actually Figure38; original reference retained.
+-Cylinder/disk descriptive subscripts rendered c/d consistent with translated prose's explicit index 'c'; formula scan glyphs resemble Russian abbreviations ц/д.
+
+Pagination: original0134 is printed116a; original0135–0137 are printed117–119.
+
+Independent review requested by root: source images0217–0224 compared with root's LaTeX. No corrections found in32.07–32.11,32.14,33.01–33.18,34.01–34.02. Enlarged33.03 confirms0.977,Omega_2^3 and2(ln4l-7/3).32.13 image remains damaged in original scan; current readings1/2 and exponents2ikL-ikz_2cos(theta_0),2ikL-ikz_1cos(theta_0) agree with visible strokes and algebra of32.14 (root checking GWU partc).

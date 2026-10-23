@@ -1,0 +1,23 @@
+{
+  "asset": "b-0123-fig38",
+  "figure": 38,
+  "method": "formula",
+  "description": "Paraboloid of fixed base radius, varying height and rim angle.",
+  "equations": [
+    "18.04",
+    "18.06",
+    "18.05"
+  ],
+  "details": {
+    "k": "pi",
+    "a": 3,
+    "Omega_degrees": 90,
+    "omega": "atan(a/(2*l))"
+  },
+  "source_crop": "images/b-0123-fig38.png",
+  "vector_outputs": [
+    "images/recreated/b-0123-fig38.pdf",
+    "images/recreated/b-0123-fig38.svg"
+  ],
+  "text_outside_canvas": []
+}

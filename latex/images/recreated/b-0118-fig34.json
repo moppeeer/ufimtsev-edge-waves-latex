@@ -1,0 +1,16 @@
+{
+  "asset": "b-0118-fig34",
+  "figure": 34,
+  "method": "vector schematic",
+  "description": "Composite conical generatrix with two axial intervals, radii and discontinuity angles.",
+  "equations": [],
+  "details": {
+    "construction": "Independently redrawn paths, dimension arrows, angle arcs and editable labels from the source figure."
+  },
+  "source_crop": "images/b-0118-fig34.png",
+  "vector_outputs": [
+    "images/recreated/b-0118-fig34.pdf",
+    "images/recreated/b-0118-fig34.svg"
+  ],
+  "text_outside_canvas": []
+}
